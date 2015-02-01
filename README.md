@@ -1,4 +1,4 @@
 reaction-control
 ================
 
-Mathematical models for an RCS system
+Mathematical models and CAD drawings for a Reaction Control System.
