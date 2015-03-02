@@ -13,9 +13,6 @@ clf
 %   *Tank emptying is assumed to be an adiabatic, reversible process
 %   *Nozzle perfectly expands the gas with no losses of any kind
 
-%Usage note: if the tank volume (or inital tank pressure is changed),
-%several constants will have to be recomputed.
-
 %Fundimental Constants
 R=297; %nitrogen gas constant [J/(Kg*K)]
 k=1.4; %ratio of specific heats
@@ -31,7 +28,6 @@ pe=101.3E3; %exit pressure (i.e. ambient pressure at sea level) [Pa]
 V=0.002; %tank volume (assumed to be a COTS 0.6 L pressure tank) [m^3] 
 alpha=0.262; %cone half angle [radians]
 lambda=(1+cos(alpha))/2; %nozzle correction factor [units]
-%mdot=0.0132; Suggested by nozzle model Not actually constant
 n=1; %n nozzles
 dutycycle=1; %*100% percent of each unit time that the valve is open
 eta=1.2;%Expansion ratio
@@ -93,9 +89,6 @@ while T>80
     Ve=sqrt(2*k/(k-1)*R*T*(1-(pe/pc)^((k-1)/k))); %exhaust velocity [m/s]
     isp=Ve/g; %specific impulse [s]
     F=lambda*mdotF*Ve;%thrust per nozzle [N]
-    %InertialPart=lambda*mdotF*Ve;
-    %PressurePart=(pc-pe)*Ae; 
-    %inertthrustratio=InertialPart/F; %part of the thrust which is inertial, these ratios change with altitude
     p=pf;
     t=t+1/10 %time [s]
     T0=T;
