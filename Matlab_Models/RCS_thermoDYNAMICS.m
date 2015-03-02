@@ -57,7 +57,7 @@ rhoTank=m/V;
     % >> can include function for pe changing with altitude
     % >> Joule thompson losses/minor losses in solenoid?
     
-while T>80
+while T>80 && p>pc
     Vm=M/rhoTank; %molar Volume of Nitrogen (inside the tank)
     Z=Vm/(Vm-b)-a/(Rbar*T*Vm); %compressibility factor Z
     pf=m*R*T0*Z/V; %tank pressure [Pa]
