@@ -1,0 +1,5 @@
+calibration gain:
+ 
+Force: -.095 ish  (gain 100)
+pressure: .996 ish (gain 1)
+Temperature: gain 100
