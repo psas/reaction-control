@@ -25,23 +25,23 @@ stdden=1.2754;%density of air at 60F and 14.7 psia [kg/m^3]
 
 %Design Constants
 pe=101.3E3; %exit pressure (i.e. ambient pressure at sea level) [Pa] 
-V=0.002; %tank volume (assumed to be a COTS 0.6 L pressure tank) [m^3] 
+V=0.0006; %tank volume (assumed to be a COTS 0.6 L pressure tank) [m^3] 
 alpha=0.262; %cone half angle [radians]
 lambda=(1+cos(alpha))/2; %nozzle correction factor [units]
 n=1; %n nozzles
 dutycycle=1; %*100% percent of each unit time that the valve is open
 eta=1.2;%Expansion ratio
-pc=175/1.450377E-4; %low-side (i.e. regulated) pressure [pa]
+pc=100/1.450377E-4; %low-side (i.e. regulated) pressure [pa] ***CHANGE THIS***
 At=(.08*0.0254)^2*3.14159; %throat area [m^2], currently .08 in
 Ae=At*eta; %nozzle exit area [m^2]
 
 %Initial Conditions
 T0=293;%initial tank temperature in K
-p0=4500/1.450377E-4;%initial tank pressure in Pa
+p0=1750/1.450377E-4;%initial tank pressure in Pa ***CHANGE THIS***
 syms Vm Z m rhoTank
 S=solve(rhoTank==m/V, Vm==M/rhoTank, Z==Vm/(Vm-b)-a/(Rbar*T0*Vm), m==p0*V/(R*T0*Z));
-Z=real(vpa(S.Z(1)));
-m=real(vpa(S.m(1)));
+Z=double(real(S.Z(1)));
+m=double(real(S.m(1)));
 
 %Initialize loop
 T=T0;
@@ -59,7 +59,9 @@ mdotF_avg1=At*pc*sqrt(2*gamma/(gamma-1)*1/(R*T)*(pe/pc)^(2/gamma)*(1-(pe/pc)^((g
     %TODO
     % >> can include function for pe changing with altitude
     % >> Joule thompson losses/minor losses in solenoid?
-    
+  
+fid=fopen('RCS.txt','w');
+fprintf(fid,'%6s %6s %6s %12s\n','T','pfpsi','F','t');
 while T>80 && p>pc
     Vm=M/rhoTank; %molar Volume of Nitrogen (inside the tank)
     Z=Vm/(Vm-b)-a/(Rbar*T*Vm); %compressibility factor Z
@@ -68,7 +70,7 @@ while T>80 && p>pc
     rho=pc/(R*T0); %low-side density [kg/m^3]
 
     mdotF=At*pc*sqrt(2*gamma/(gamma-1)*1/(R*T)*(pe/pc)^(2/gamma)*(1-(pe/pc)^((gamma-1)/gamma)));
-    m=m-mdotF*n*dutycycle;%*1/10; %propellant mass [kg]
+    m=m-mdotF*n*dutycycle*1/50; %propellant mass [kg]
     T=T0*(pf/p)^((gamma-1)/gamma); %tank temperature [K]
     Tf=9/5*(T-273)+32; %tank temperature [F]
 
@@ -93,7 +95,7 @@ while T>80 && p>pc
     isp=Ve/g; %specific impulse [s]
     F=lambda*mdotF*Ve;%thrust per nozzle [N]
     p=pf;
-    t=t+1%/10 %time [s]
+    t=t+1/50 %time [s]
     T0=T;
     Tavg1=T+Tavg1;
     mdotF_avg1=mdotF+mdotF_avg1;
@@ -159,7 +161,11 @@ while T>80 && p>pc
     plot(t,Cvsol, 'b');
     xlabel('time (s)');
     ylabel('Cv solenoid');
+
+   fprintf(fid,'%6.8f %6.8f %6.8f %12.8f\n',T,pfpsi,F,t);
 end
+fclose(fid);
+
 Tavg=Tavg1/t;
 %Tavg=(Tavg+T)/2;
 mdotF_avg=mdotF_avg1/t;
@@ -175,15 +181,15 @@ D=0.00635;%armature diameter (1/4 in) [m]
 V_s=pi*D*6*((D/2)^2);%armature volume guess
 k1=0.03;%nitrogen thermal conductivity [W/m*k] (assumed constant)
 k2=109;%armature thermal conductivity (brass) [W/m*k] (assumed constant)
-A_s=(D/10)*2*pi*D*6;%armature interior surface area guess
-Pr=0.80;%avgerage Prandtl number (3000 psi, 220K (units:)))
+A_s=D^2;%(D/10)*2*pi*D*6;%armature interior surface area guess
+Pr=0.80;%avgerage Prandtl number (3000 psi, 220K (mix-match units:)))
 mu=12E-6;%average dynamic viscosity of nitrogen (assumed constant) [Pa/s]
 v_line=mdotF_avg/(rho_avg*pi*(D/2)^2);%line flow velocity [m/s]
 Re=rho_avg*v_line*D/mu;%Reynolds number
 Nu_D=0.0265*Re^(4/5)*Pr^(0.3);%Dittus-Boelter Nusselt number correlation (assumed turbulent flow, check Re>10E3)
 h=k1/D*Nu_D;%convective heat transfer coefficient [W/m^2*K]
 tau=rho_s*c*V_s/(h*A_s);%time constant
-T_check=233;%test temp (what is a safe temperature for a PCTFE,NBR,FKM fitting? guess: -40C)
+T_check=233;%test temp (what is a safe temperature for PCTFE, NBR, FKM fittings? guess: -40C)
 theta=(293-Tavg)/(T_check-Tavg);%dimensionless temperature
 t_cooling=vpa(real(log(theta)*tau))%time for solenoid to cool to average flow temperature [s]
 
