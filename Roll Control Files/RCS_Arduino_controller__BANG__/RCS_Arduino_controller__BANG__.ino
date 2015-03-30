@@ -30,8 +30,8 @@ int rollCW = 11;
 int rollCCW = 12;
 int pitchplus = 9;
 int pitchminus = 8;
-int yawplus = 6;
-int yawminus = 5;
+int yawminus = 6;
+int yawplus = 5;
 
 const int MPU=0x68;  // I2C address of the MPU-6050
 float AcX;
@@ -86,6 +86,15 @@ void IMU(){ //IMU function for MPU-6050
   }
   if (GyZ >= 32768) {
   GyZ = GyZ-65536;
+  }
+  if (AcX >= 32768) {
+  AcX = AcX-65536;
+  }
+  if (AcY >= 32768) {
+  AcY = AcY-65536;
+  }
+  if (AcZ >= 32768) {
+  AcZ = AcZ-65536;
   }
   ////////////////////////////////////////////////////////////
   //output for Pitch tilt
@@ -162,12 +171,12 @@ void roll() { //function to control roll
   }
 }
 void pitch(){
- if (rateZ >= 5) { 
+ if (accelZ >= .2) { 
     blink();
     digitalWrite(pitchplus,ledState);
   }
   //acvitate solenoids to roll counter-clockwise  
-  else if (rateZ <= -5) {
+  else if (accelZ <= -.2) {
     blink();
     digitalWrite(pitchminus,ledState);
   }
@@ -178,12 +187,12 @@ void pitch(){
   } 
 }
 void yaw(){
- if (rateZ >= 5) { 
+ if (accelY >= .2) { 
     blink();
     digitalWrite(yawplus,ledState);
   }
   //acvitate solenoids to roll counter-clockwise  
-  else if (rateZ <= -5) {
+  else if (accelY <= -.2) {
     blink();
     digitalWrite(yawminus,ledState);
   }
