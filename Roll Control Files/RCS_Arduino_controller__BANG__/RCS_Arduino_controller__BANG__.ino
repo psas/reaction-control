@@ -74,10 +74,10 @@ void IMU(){ //IMU function for MPU-6050
   if (GyX >= 32768) {
   GyX = GyX-65536;
   }
-  else if (GyY >= 32768) {
+  if (GyY >= 32768) {
   GyY = GyY-65536;
   }
-  else if (GyZ >= 32768) {
+  if (GyZ >= 32768) {
   GyZ = GyZ-65536;
   }
   ////////////////////////////////////////////////////////////
