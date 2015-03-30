@@ -27,9 +27,11 @@ float outputY = 0.0;     // [LSB] (100% voltage to motor is 255LSB)
 
 // LED pin assignments
 int rollCW = 11;
-int rollCCW = 10;
-int pitch = 5;
-int yaw = 6;
+int rollCCW = 12;
+int pitchplus = 9;
+int pitchminus = 8;
+int yawplus = 6;
+int yawminus = 5;
 
 const int MPU=0x68;  // I2C address of the MPU-6050
 float AcX;
@@ -54,8 +56,10 @@ void setup() {
   Wire.endTransmission(true);
   pinMode(rollCW, OUTPUT);
   pinMode(rollCCW, OUTPUT);
-  pinMode(pitch, OUTPUT);
-  pinMode(yaw, OUTPUT);
+  pinMode(pitchplus, OUTPUT);
+  pinMode(pitchminus, OUTPUT);
+  pinMode(yawplus, OUTPUT);
+  pinMode(yawminus, OUTPUT);
   Serial.begin(9600);
 }
 
@@ -157,14 +161,46 @@ void roll() { //function to control roll
     digitalWrite(rollCCW,LOW);    
   }
 }
-
+void pitch(){
+ if (rateZ >= 5) { 
+    blink();
+    digitalWrite(pitchplus,ledState);
+  }
+  //acvitate solenoids to roll counter-clockwise  
+  else if (rateZ <= -5) {
+    blink();
+    digitalWrite(pitchminus,ledState);
+  }
+ //sweetspot!! no roll action to solenoids
+  else {
+    digitalWrite(pitchplus,LOW);
+    digitalWrite(pitchminus,LOW);    
+  } 
+}
+void yaw(){
+ if (rateZ >= 5) { 
+    blink();
+    digitalWrite(yawplus,ledState);
+  }
+  //acvitate solenoids to roll counter-clockwise  
+  else if (rateZ <= -5) {
+    blink();
+    digitalWrite(yawminus,ledState);
+  }
+ //sweetspot!! no roll action to solenoids
+  else {
+    digitalWrite(yawplus,LOW);
+    digitalWrite(yawminus,LOW);    
+  } 
+}
 void loop() {
   
   IMU(); //recall IMU function
   
   roll(); //roll rate controller 
- 
-
+  pitch();
+  yaw();
+  
   delay(1);
 
 }
