@@ -10,10 +10,10 @@
 #define KD 0.4          // derivative controller gain [LSB/deg/loop]
 #define KI 0.5          // Integral controller gain
 
-float accel = 0.0;
-float angle = 0.0;      // [deg]
+float accelX = 0.0;
+float angleX = 0.0;      // [deg]
 float rateX = 0.0;       // [deg/s]
-float output = 0.0;     // [LSB] (100% voltage to motor is 255LSB)
+float outputX = 0.0;     // [LSB] (100% voltage to motor is 255LSB)
 
 float accelZ = 0.0;
 float angleZ = 0.0;      // [deg]
@@ -25,10 +25,11 @@ float angleY = 0.0;      // [deg]
 float rateY = 0.0;       // [deg/s]
 float outputY = 0.0;     // [LSB] (100% voltage to motor is 255LSB)
 
-//float rate = 0.0;       // [deg/s]
-
-
-
+// LED pin assignments
+int rollCW = 11;
+int rollCCW = 10;
+int pitch = 5;
+int yaw = 6;
 
 const int MPU=0x68;  // I2C address of the MPU-6050
 float AcX;
@@ -51,8 +52,10 @@ void setup() {
   Wire.write(0x6B);  // PWR_MGMT_1 register
   Wire.write(0);     // set to zero (wakes up the MPU-6050)
   Wire.endTransmission(true);
-  pinMode(10, OUTPUT);
-  pinMode(13, OUTPUT);
+  pinMode(rollCW, OUTPUT);
+  pinMode(rollCCW, OUTPUT);
+  pinMode(pitch, OUTPUT);
+  pinMode(yaw, OUTPUT);
   Serial.begin(9600);
 }
 
@@ -141,17 +144,17 @@ void roll() { //function to control roll
     //acvitate solenoids to roll clockwise
   if (rateX >= 2) { 
     blink();
-    digitalWrite(10,ledState);
+    digitalWrite(rollCW,ledState);
   }
   //acvitate solenoids to roll counter-clockwise  
   else if (rateX <= -2) {
     blink();
-    digitalWrite(13,ledState);
+    digitalWrite(rollCCW,ledState);
   }
  //sweetspot!! no roll action to solenoids
   else {
-    digitalWrite(10,LOW);
-    digitalWrite(13,LOW);    
+    digitalWrite(rollCW,LOW);
+    digitalWrite(rollCCW,LOW);    
   }
 }
 
