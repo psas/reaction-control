@@ -74,10 +74,10 @@ void IMU(){ //IMU function for MPU-6050
   if (GyX >= 32768) {
   GyX = GyX-65536;
   }
-  if (GyY >= 32768) {
+  else if (GyY >= 32768) {
   GyY = GyY-65536;
   }
-  if (GyZ >= 32768) {
+  else if (GyZ >= 32768) {
   GyZ = GyZ-65536;
   }
   ////////////////////////////////////////////////////////////
@@ -137,12 +137,8 @@ void blink() //function for blink without  delay using preset interval for PWM
   }
 }
 
-void loop() {
-  
-  IMU(); //recall IMU function
-  
-  
-  //acvitate solenoids to roll clockwise
+void rate() { //function to control roll
+    //acvitate solenoids to roll clockwise
   if (rate >= 2) { 
     blink();
     digitalWrite(10,ledState);
@@ -157,6 +153,14 @@ void loop() {
     digitalWrite(10,LOW);
     digitalWrite(13,LOW);    
   }
+}
+
+void loop() {
+  
+  IMU(); //recall IMU function
+  
+  rate(); //roll rate controller 
+ 
 
   delay(1);
 
