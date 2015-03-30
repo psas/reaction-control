@@ -12,7 +12,7 @@
 
 float accel = 0.0;
 float angle = 0.0;      // [deg]
-float rate = 0.0;       // [deg/s]
+float rateX = 0.0;       // [deg/s]
 float output = 0.0;     // [LSB] (100% voltage to motor is 255LSB)
 
 float accelZ = 0.0;
@@ -25,7 +25,7 @@ float angleY = 0.0;      // [deg]
 float rateY = 0.0;       // [deg/s]
 float outputY = 0.0;     // [LSB] (100% voltage to motor is 255LSB)
 
-float rateZ = 0.0;       // [deg/s]
+//float rate = 0.0;       // [deg/s]
 
 
 
@@ -90,11 +90,11 @@ void IMU(){ //IMU function for MPU-6050
   Serial.print(" | accY = ");
   Serial.print(accelY);
   //determine the angle
-  angleZ = A * (angleZ + rate * DT) + (1 - A) * accelY;  
+  angleZ = A * (angleZ + rateZ * DT) + (1 - A) * accelY;  
   Serial.print(" | angZ = ");
   Serial.print(angleZ);
   //set the scalar reaction 
-  outputZ = (angleZ * KP + rate * KD) ;
+  outputZ = (angleZ * KP + rateZ * KD) ;
   Serial.print(" | outZ = ");
   Serial.print(outputZ);
   ////////////////////////////////////////////////////////////
@@ -107,11 +107,11 @@ void IMU(){ //IMU function for MPU-6050
   Serial.print(" | accZ = ");
   Serial.print(accelZ);
   //determine the angle
-  angleY = A * (angleY + rate * DT) + (1 - A) * accelZ;  
+  angleY = A * (angleY + rateY * DT) + (1 - A) * accelZ;  
   Serial.print(" | angY = ");
   Serial.print(angleY);
   //set the scalar reaction 
-  outputY = (angleY * KP + rate * KD) ;
+  outputY = (angleY * KP + rateY * KD) ;
   Serial.print(" | outY = ");
   Serial.print(outputY);
   ////////////////////////////////////////////////////////////
@@ -137,14 +137,14 @@ void blink() //function for blink without  delay using preset interval for PWM
   }
 }
 
-void rate() { //function to control roll
+void roll() { //function to control roll
     //acvitate solenoids to roll clockwise
-  if (rate >= 2) { 
+  if (rateX >= 2) { 
     blink();
     digitalWrite(10,ledState);
   }
   //acvitate solenoids to roll counter-clockwise  
-  else if (rate <= -2) {
+  else if (rateX <= -2) {
     blink();
     digitalWrite(13,ledState);
   }
@@ -159,11 +159,9 @@ void loop() {
   
   IMU(); //recall IMU function
   
-  rate(); //roll rate controller 
+  roll(); //roll rate controller 
  
 
   delay(1);
 
 }
-
-
