@@ -1,4 +1,3 @@
-
 #include <Wire.h>
 
 #define A_GAIN 0.932    // [deg/LSB]
@@ -16,10 +15,10 @@ float angle = 0.0;      // [deg]
 float rate = 0.0;       // [deg/s]
 float output = 0.0;     // [LSB] (100% voltage to motor is 255LSB)
 
-float accelX = 0.0;
-float angleX = 0.0;      // [deg]
-float rateX = 0.0;       // [deg/s]
-float outputX = 0.0;     // [LSB] (100% voltage to motor is 255LSB)
+float accelZ = 0.0;
+float angleZ = 0.0;      // [deg]
+float rateZ = 0.0;       // [deg/s]
+float outputZ = 0.0;     // [LSB] (100% voltage to motor is 255LSB)
 
 float accelY = 0.0;
 float angleY = 0.0;      // [deg]
@@ -70,6 +69,17 @@ void IMU(){ //IMU function for MPU-6050
   GyX=Wire.read()<<8|Wire.read(); 
   GyY=Wire.read()<<8|Wire.read(); 
   GyZ=Wire.read()<<8|Wire.read();
+  
+  // adjusting roll rates with negatives
+  if (GyX >= 32768) {
+  GyX = GyX-65536;
+  }
+  else if (GyY >= 32768) {
+  GyY = GyY-65536;
+  }
+  else if (GyZ >= 32768) {
+  GyZ = GyZ-65536;
+  }
   ////////////////////////////////////////////////////////////
   //output for Pitch tilt
   rateX = GyX / 131;  
@@ -80,24 +90,24 @@ void IMU(){ //IMU function for MPU-6050
   Serial.print(" | accY = ");
   Serial.print(accelY);
   //determine the angle
-  angleX = A * (angleX + rate * DT) + (1 - A) * accelY;  
-  Serial.print(" | angX = ");
-  Serial.print(angleX);
+  angleZ = A * (angleZ + rate * DT) + (1 - A) * accelY;  
+  Serial.print(" | angZ = ");
+  Serial.print(angleZ);
   //set the scalar reaction 
-  outputX = (angleX * KP + rate * KD) ;
-  Serial.print(" | outX = ");
-  Serial.print(outputX);
+  outputZ = (angleZ * KP + rate * KD) ;
+  Serial.print(" | outZ = ");
+  Serial.print(outputZ);
   ////////////////////////////////////////////////////////////
   //output for Yaw tilt
   rateY = GyY / 131;  
   Serial.print(" | rateY = ");
   Serial.print(rateY);
   //set accell rate
-  accelX = AcX / 16384;
-  Serial.print(" | accX = ");
-  Serial.print(accelX);
+  accelZ = AcZ / 16384;
+  Serial.print(" | accZ = ");
+  Serial.print(accelZ);
   //determine the angle
-  angleY = A * (angleY + rate * DT) + (1 - A) * accelX;  
+  angleY = A * (angleY + rate * DT) + (1 - A) * accelZ;  
   Serial.print(" | angY = ");
   Serial.print(angleY);
   //set the scalar reaction 
