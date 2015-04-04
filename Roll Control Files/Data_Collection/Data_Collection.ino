@@ -1,4 +1,4 @@
-char filename[] = "test_data.csv";
+char filename[] = "test_data3.csv";
 
 
 /*
@@ -31,9 +31,11 @@ char filename[] = "test_data.csv";
 // 53 on the Mega) must be left as an output or the SD library
 // functions will not work.
 const int chipSelect = 4;
-
+unsigned long startTime;
+unsigned long currentTime;
 void setup()
 {
+  startTime = millis();
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
   while (!Serial) {
@@ -53,23 +55,26 @@ void setup()
     return;
   }
   Serial.println("card initialized.");
-  String dataString = "time,force,pressure,temperature,solenoid";
+  File dataFile = SD.open(filename, FILE_WRITE);
+  dataFile.println("time,force,pressure,temperature,solenoid");
+  dataFile.close();
 }
 
 void loop()
 {
   // make a string for assembling the data to log:
   String dataString = "";
-
+  currentTime = millis();
+  dataString += (currentTime-startTime);
   // read four sensors and append to the string:
-  for (int analogPin = 0; analogPin < 4; analogPin++) {
+  for (int analogPin = 1; analogPin <= 5; analogPin++) {
     int sensor = analogRead(analogPin);
-    dataString += String(sensor);
-    if (analogPin < 3) {
+    dataString += String(analogPin);
+    if (analogPin < 5) {
       dataString += ",";
     }
   }
-
+  //Serial.println(currentTime - startTime);
   // open the file. note that only one file can be open at a time,
   // so you have to close this one before opening another.
   File dataFile = SD.open(filename, FILE_WRITE);
@@ -79,10 +84,14 @@ void loop()
     dataFile.println(dataString);
     dataFile.close();
     // print to the serial port too:
-    Serial.println(dataString);
+    //Serial.println(dataString);
   }
   // if the file isn't open, pop up an error:
   else {
-    Serial.println("error opening datalog.txt");
+    Serial.print("error opening");
+    Serial.println(filename);
+  }
+  if (millis()>500000){
+    return;
   }
 }
