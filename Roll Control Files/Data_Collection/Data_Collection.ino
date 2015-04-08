@@ -1,97 +1,28 @@
-char filename[] = "test_data3.csv";
-
-
-/*
-  SD card datalogger
-
- This example shows how to log data from three analog sensors
- to an SD card using the SD library.
-
- The circuit:
- * analog sensors on analog ins 0, 1, and 2
- * SD card attached to SPI bus as follows:
- ** MOSI - pin 11
- ** MISO - pin 12
- ** CLK - pin 13
- ** CS - pin 4
-
- created  24 Nov 2010
- modified 9 Apr 2012
- by Tom Igoe
-
- This example code is in the public domain.
-
- */
-
-#include <SPI.h>
-#include <SD.h>
-
-// On the Ethernet Shield, CS is pin 4. Note that even if it's not
-// used as the CS pin, the hardware CS pin (10 on most Arduino boards,
-// 53 on the Mega) must be left as an output or the SD library
-// functions will not work.
-const int chipSelect = 4;
-unsigned long startTime;
-unsigned long currentTime;
+// analog-plot
+// 
+// Read analog values from A0 and A1 and print them to serial port.
+//
+// electronut.in
+ 
+#include "Arduino.h"
+ 
 void setup()
 {
-  startTime = millis();
-  // Open serial communications and wait for port to open:
-  Serial.begin(9600);
-  while (!Serial) {
-    ; // wait for serial port to connect. Needed for Leonardo only
-  }
-
-
-  Serial.print("Initializing SD card...");
-  // make sure that the default chip select pin is set to
-  // output, even if you don't use it:
-  pinMode(10, OUTPUT);
-
-  // see if the card is present and can be initialized:
-  if (!SD.begin(chipSelect)) {
-    Serial.println("Card failed, or not present");
-    // don't do anything more:
-    return;
-  }
-  Serial.println("card initialized.");
-  File dataFile = SD.open(filename, FILE_WRITE);
-  dataFile.println("time,force,pressure,temperature,solenoid");
-  dataFile.close();
+  // initialize serial comms
+  Serial.begin(115200); 
 }
-
+ 
 void loop()
 {
-  // make a string for assembling the data to log:
-  String dataString = "";
-  currentTime = millis();
-  dataString += (currentTime-startTime);
-  // read four sensors and append to the string:
-  for (int analogPin = 1; analogPin <= 5; analogPin++) {
-    int sensor = analogRead(analogPin);
-    dataString += String(analogPin);
-    if (analogPin < 5) {
-      dataString += ",";
-    }
-  }
-  //Serial.println(currentTime - startTime);
-  // open the file. note that only one file can be open at a time,
-  // so you have to close this one before opening another.
-  File dataFile = SD.open(filename, FILE_WRITE);
-
-  // if the file is available, write to it:
-  if (dataFile) {
-    dataFile.println(dataString);
-    dataFile.close();
-    // print to the serial port too:
-    //Serial.println(dataString);
-  }
-  // if the file isn't open, pop up an error:
-  else {
-    Serial.print("error opening");
-    Serial.println(filename);
-  }
-  if (millis()>500000){
-    return;
-  }
+  // read A0
+  int val1 = analogRead(0);
+  // read A1
+  int val2 = analogRead(1);
+  // print to serial
+  Serial.print(val1);
+  Serial.print(" ");
+  Serial.print(val2);
+  Serial.print("\n");
+  // wait 
+  delay(0);
 }
