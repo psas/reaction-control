@@ -2,26 +2,30 @@
 
 ### Power
 
-- "5V" and "GND" terminal blocks.
+- "5V" and "GND" on the "DAQ" terminal block.
 - Use a very clean 5.0V +/- 5% or better, capable of at least 100 mA.
 - DON'T PUT THE WIRES IN BACKWARDS, YOU'LL FRY THE IC.
 
 ### Inputs
 
 - "Rgain" terminal block: put gain resistor here. Doesn't matter which way.
-- "Vin-" and "2.5V" terminal blocks: put 120 ohm strain gauge across here. Doesn't matter which way.
+- The "GAUGE" terminal block is the input to the Wheatstone bridge strain gauge:
+   - "V+" is the positive supply input (2.5V in this case)
+   - "S+" is the positive signal (whatever that means on a bridge)
+   - "S-" is the negative signal (whatever that means on a bridge)
+   - "V-" is the negative supply, or ground, for the bridge.
 
 ### Outputs
 
-- "2.5" terminal block: output of 2.5 V "pseudo-ground" reference. The output is referenced to this voltage (no strain should equal 2.5V output). Doesn't necessarily need to be connected, but should be recorded and used as the zero reference if you need the precision.
-- "Vout": output of the strain gauge amplifier. 
+- "REF" is the 2.5 V "pseudo-ground" reference. The output is referenced to this voltage (zero strain should equal 2.5V output). Doesn't necessarily need to be connected, but should be recorded and used as the zero reference if you need the precision.
+- "OUT" is the output of the strain gauge amplifier. 
 
 
 # Choosing Rgain
 
 - Any kind of through-hole resistor will work: 1/8th watt, 1/4 watt, 1/2 watt, whatever.
 - Refer to the INA125U datasheet for setting the gain, but here's the summary:
-   - G = 4+ (60 kohm / Rg)
+   - G = 4 + (60 kohm / Rg)
    - Gain = 10 ==> 10 kohm
    - Gain = 100 ==> 620 ohms
    - Gain = 1,000 ==> 60 ohms
@@ -30,8 +34,11 @@
 
 # Quick SOP
 
-1. Choose and screw on a gain resistor. For generating ~ 500 mV at ~ 50 pounds of force, use Rg = 6 ohms. This is very finicky, however, so hopefully you can use much less gain since you're generating a lot more force.
-2. Power up the system and attach everything. With no force on the strain gauge, change the 20 turn potentiometer until Vout reads as close to 2.5 V as you can get it. Now the system is zeroed, and will output 2.5 V +/- 2 V depending on the strain and gain.
-3. Attach a DAQ to Vout and ground.
-4. Calibrate somehow? With a known weight, perhaps?
+1. Choose and screw in a gain resistor.
+2. Screw in the wheatstone bridge.
+3. Connect up the power to +5V limited to about 250 mA. Make sure it doesn't pull more than about 100 mA, or something is wrong.
+4. Measure the output, it should be 2.5V at zero output.
+5. The output should change as you apply force to the strain gauge.
+6. Attach a DAQ to OUT and ground.
+7. Calibrate somehow? With a known weight, perhaps?
 
