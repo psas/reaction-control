@@ -1,0 +1,90 @@
+RCS Capstone Electrical Components
+
+Pressure transducer 
+– spec sheet in Appendix A  
+Quantity = 1
+Manufacturer Ashcroft
+Part# G2 M01 15 F2 5000# 
+input voltage: 9-36Vdc
+output voltage: 1-5Vdc
+supply current 4: mA
+Purpose
+The pressure transducer will be used to measure remaining mass of N2 during flight for delta v calculations.
+Time Sampling 
+Sample rate should be no less than 10 Hz
+Data Transferred
+The pressure transducer will output a voltage that needs to be interpreted as the pressure remaining in the tank
+
+
+
+Connections
+There are four wires inside a shielded cable.  Red and Black are for input voltage and White and grey for output.	
+System Location
+The pressure transducer is located at the nozzle of the gas tank and has a 2 ft cable.
+
+
+
+
+
+
+Solenoids 
+– spec sheet in Appendix B
+Quantity: 6
+Model# 320
+Manufacturer: Humprey
+Electrical Specs
+Voltage: 24V DC w/ range of +10% and -15%
+Resistance: 72 Ohms
+Current: 333mA
+Power Consumption: 8 W max draw 
+Response time: on - 0.018 s, off - 0.009 s
+
+
+
+
+Purpose
+The solenoids will be actuated to a given range of duty cycle by the rocket’s computer using a control algorithm. 
+Temperatures
+Ambient temperature range: 32 F to 125 F
+Connections
+There are two 24 in black lead wires 18 AWG.
+Humphry spec sheet on the 3rd page mentions two different connectors that can be ordered.	
+
+	
+
+
+
+
+
+
+Appendix A – Pressure Transducer Data Sheet
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix B – Solenoid Data Sheet
+
+
+
+
+
