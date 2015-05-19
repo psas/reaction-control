@@ -30,14 +30,14 @@ float outputY = 0.0;     // [LSB] (100% voltage to motor is 255LSB)
 
 float rateZ = 0.0;       // [deg/s]
 
-#define num  6      // for smoother
+#define num  1      // for smoother
 int reader[num];         // for smoother
 int Index = 0;           // for smoother
 float total = 0.0;         // for smoother
 float ave = 0.0;           // ave the rate for smoother
 float rateD = 0.00;      // desired roll rate
-#define kp .25;            // proportional gain for duty cycle
-float a = 2.0 * kp;        // (I/(r*.1s))/Ftot equation to dc from radian error
+#define kp 0.41            // proportional gain for duty cycle
+float a = 1.0 * kp;        // (I/(r*.1s))/Ftot equation to dc from radian error
 float u = 0.0;
 float aveRad = 0.0;
 
@@ -55,20 +55,20 @@ float d = 0;
 #define onTime 200
 unsigned long previousMillis = 0;        // will store last time LED was updated
 int interval = onTime;
-boolean ledState = HIGH;                 // ledState used to set the LED
+boolean ledState = LOW;                 // ledState used to set the LED
 //const long interval = 100;             // interval at which to blink (milliseconds)
 #define MPU6050_DLPF_CFG3     6          //Built in low pass filter section delay 4.9ms
 #define MPU6050_CONFIG       0x1A        //congfig register for MPU6050
 
-#define cw  5
-#define ccw  3
+#define cw  3
+#define ccw  5
 
 void setup() {
   
   Wire.begin();
   Wire.beginTransmission(MPU);
-  Wire.write(0x6B);  // PWR_MGMT_1 register
-  Wire.write(0);     // set to zero (wakes up the MPU-6050)      
+  Wire.write(0x6B);            // PWR_MGMT_1 register
+  Wire.write(0);               // set to zero (wakes up the MPU-6050)      
   Wire.endTransmission(true);
   Wire.beginTransmission(MPU);
   Wire.write(MPU6050_CONFIG);  // digital filter resgister fs 1 Khz
@@ -82,22 +82,22 @@ void setup() {
   digitalWrite(cw, LOW);
   for (int i = 0; i < num; i++)
     reader[i] = 0;
-  //delay(5000);
+  delay(1000);
   
 }
 
 void loop(){
-  //if (millis() < 15000){
+  if (millis() < 15000){
 
       IMU(); //call IMU function
       
-      if (aveRad >= 0.175) {
+      if (aveRad >= 0.08) {
         blinkwd();
         digitalWrite(cw,ledState);
       }
       
       //acvitate solenoids to roll counter-clockwise  
-      else if (aveRad <= -0.175) {
+      else if (aveRad <= -0.08) {
         blinkwd();
         digitalWrite(ccw,ledState);
       }
@@ -110,15 +110,15 @@ void loop(){
 
 
  
-//      delay(1);
-  //}
- /* 
+      delay(1);
+  }
+  
  else{
     digitalWrite(cw,LOW);
     digitalWrite(ccw,LOW);
   }
-  */
-  
+ 
+  /*
   Serial.print(" | rateXaveRad = ");
   Serial.println(aveRad);
   Serial.print(" | rateX = ");
@@ -127,7 +127,7 @@ void loop(){
   Serial.print(ledState);
   Serial.print("   |u   ");
   Serial.print(u);
-  
+  */
   
   
 }
@@ -142,7 +142,7 @@ void blinkwd(){
     ledState = HIGH; 
   }
   
-  else if (abs(u) < .1 ){  
+  else if (abs(u) < .075 ){  
     ledState = LOW;      
   
   }
@@ -232,45 +232,4 @@ void IMU(){ //IMU function for MPU-6050
 //  Serial.print(" | rateXaveRad = ");
 //  Serial.println(aveRad);  
 }
-
-void case1(){
-  if ( abs(u) <= 0.175 )
-  {
-    digitalWrite(cw,LOW);
-    digitalWrite(ccw,LOW);
-  }
-
-  else if ( u >= 1 )
-  {
-    u = 1;
-  }
-
-}
-
-void case2(){
- if (aveRad >= 0.175) { 
-    blinkwd();
-    digitalWrite(cw,ledState);
-  }
-  //acvitate solenoids to roll counter-clockwise  
-  else if (aveRad <= -0.175) {
-    blinkwd();
-    digitalWrite(ccw,ledState);
-  }
- //sweetspot!! no roll action to solenoids
-  
-  else {
-    digitalWrite(cw,LOW);
-    digitalWrite(ccw,LOW);    
-  }
-
-}
-
-void case3(){
-    digitalWrite(cw,LOW);
-    digitalWrite(ccw,LOW);
-}
-
-
-
 
