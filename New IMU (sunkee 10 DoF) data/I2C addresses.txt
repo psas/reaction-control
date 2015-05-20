@@ -1,0 +1,20 @@
+IC1 -- LD0
+
+IC2 -- L3G4200D
+gyro
+
+110101xb (0x35)
+
+IC3 -- ADXL345B
+accelerometer
+
+0x53
+
+IC4 -- HMC5883L
+magnetometer
+
+0x1E
+
+IC5 -- BMP085
+barometer
+

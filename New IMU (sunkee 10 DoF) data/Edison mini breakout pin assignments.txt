@@ -1,0 +1,18 @@
+I2C:
+SCL = j18-pin6 (gp19)
+SDA = J17-pin8 (gp20)
+
+Power and Ground:
+GND = j19-pin3
+Vin(7-15V) = j17-pin4
+sys input power(3.15-4.5V) = J20-pin1
+3.3V = j20-pin2
+1.8V = j19-pin2
+
+I/O:
+     solenoids 1-6:
+	j20-pins 12,13,14(GP 79,80,81)
+	j19-pins 12,13,14(GP 77,82,83)
+     Leds:
+	Armed: j18-pin12 (GP 129)
+	Running: j18-pin13 (GP 130)
