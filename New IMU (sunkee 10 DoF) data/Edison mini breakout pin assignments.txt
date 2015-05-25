@@ -1,6 +1,6 @@
-I2C:
-SCL = j18-pin6 (gp19)
-SDA = J17-pin8 (gp20)
+I2C-1:
+SCL = j18-pin6 (gp19)(I2C-1-SCL)
+SDA = J17-pin8 (gp20)(I2C-1-SDA)
 
 Power and Ground:
 GND = j19-pin3
@@ -11,8 +11,10 @@ sys input power(3.15-4.5V) = J20-pin1
 
 I/O:
      solenoids 1-6:
-	j20-pins 12,13,14(GP 79,80,81)
-	j19-pins 12,13,14(GP 77,82,83)
+	j20-pins 10,9,6(GP 41,42,49)(MRAA 51,50,47)(arduino 10,12,8)
+	j19-pins 10,11,6(GP 40,43,48)(MRAA 37,38,33)(arduino 13,11,7)
      Leds:
-	Armed: j18-pin12 (GP 129)
-	Running: j18-pin13 (GP 130)
+	Armed: j18-pin7 (GP 12)(MRAA 20)(arduino 3)
+	Running: j18-pin1 (GP 13)(MRAA 14)(arduino 5)
+     E-stop:
+	j17-1 (GP 182) (MRAA 0) (arduino 6)
