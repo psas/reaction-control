@@ -21,7 +21,7 @@ References:
 #include "mpu6050registers.h"
 
 //i2c settings
-#define MPU6050_I2CFLEURYPATH "C:\Users\schweiz\Atmel Projects\avr_lib_mpu6050_03\src\i2chw\i2cmaster.h" //define the path to i2c fleury lib
+#define MPU6050_I2CFLEURYPATH "C:\Users\Robert\Documents\App Docs\GitHub\reaction-control\PWM_Inverted_Pendulum\PWM_Inverted_Pendulum\i2cmaster.h" //define the path to i2c fleury lib
 #define MPU6050_I2CINIT 1 //init i2c
 
 //definitions

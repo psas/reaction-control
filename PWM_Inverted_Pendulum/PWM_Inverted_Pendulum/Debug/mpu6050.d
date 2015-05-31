@@ -19,7 +19,7 @@ mpu6050.d mpu6050.o: .././mpu6050.c \
  c:\program\ files\ (x86)\atmel\atmel\ toolchain\avr8\ gcc\native\3.4.1061\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  c:\program\ files\ (x86)\atmel\atmel\ toolchain\avr8\ gcc\native\3.4.1061\avr8-gnu-toolchain\avr\include\math.h \
  .././mpu6050.h .././mpu6050registers.h \
- C:\Users\schweiz\Atmel\ Projects\avr_lib_mpu6050_03\src\i2chw\i2cmaster.h
+ C:\Users\Robert\Documents\App\ Docs\GitHub\reaction-control\PWM_Inverted_Pendulum\PWM_Inverted_Pendulum\i2cmaster.h
 
 c:\program\ files\ (x86)\atmel\atmel\ toolchain\avr8\ gcc\native\3.4.1061\avr8-gnu-toolchain\avr\include\stdlib.h:
 
@@ -63,4 +63,4 @@ c:\program\ files\ (x86)\atmel\atmel\ toolchain\avr8\ gcc\native\3.4.1061\avr8-g
 
 .././mpu6050registers.h:
 
-C:\Users\schweiz\Atmel\ Projects\avr_lib_mpu6050_03\src\i2chw\i2cmaster.h:
+C:\Users\Robert\Documents\App\ Docs\GitHub\reaction-control\PWM_Inverted_Pendulum\PWM_Inverted_Pendulum\i2cmaster.h:

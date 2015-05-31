@@ -110,7 +110,7 @@ TCCR1A |= (1 << COM1A1);                       //sets Timer 1 to CTC mode using 
 TCCR1B |= (1 << WGM12);                        // 
 TIMSK1 |= (1 << OCIE1A);                       // Enable CTC interrupt
 sei();                                         // Enable global interrupts
-OCR1A = 100;                                   //This sets frequency of interrupt  
+OCR1A = 55;                                   //This sets frequency of interrupt  
 TCCR1B |=(1 << CS10)|(0 << CS11)|(1 << CS12);  // sets the prescaler on the clock frequency to 1024
 ////  TARGET FREQUENCY CALCULATION ////////////////////
 ////  Target Frequency =  F CPU/(2*Prescale*OCR1A) - 1
@@ -121,7 +121,7 @@ TCCR1B |=(1 << CS10)|(0 << CS11)|(1 << CS12);  // sets the prescaler on the cloc
 TCCR0A |= (1 << COM0A1)|(0 << COM0A0)|(1 << COM0B1)|(0 << COM0B0)|(1 << WGM00)|(0 << WGM01);//Setting up Fast PWM with OCR0A and OCROB as compare registers
 TCCR0B |= (0 << WGM02)|(1 << CS02)|(0 << CS01)|(0 << CS00);  // Defines Fast PWM and activates timer
 
-OCR0A = 100;                               // Sets value to compare give a 4.8 Hz PWM cycle
+//OCR0A = 0;                               // Sets value to compare give a 4.8 Hz PWM cycle
 
 
 	while(1)
