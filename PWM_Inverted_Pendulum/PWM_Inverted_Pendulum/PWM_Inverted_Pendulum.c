@@ -88,7 +88,7 @@ int main (void)
 	DDRD=0b10000010; //Set Output Port for USART
 	
 	
-	// Initialize TWI
+	// Initialize TWI/I2C
 	
 	mpu6050_init();
 
@@ -101,7 +101,7 @@ DDRD  |= (1 << PORTD3)|(1 << PORTD5)|(1 << PORTD6); //set data direction
 DDRB  |= (1 >> PORTB1)|(1 << PORTB3);  //set data direction 
 
 PORTD |= (0 << PORTD5)|(0 << PORTD6); //activate pins
-PORTB |= (1 >> PORTB1)|(1 << PORTB3);  //activate pins
+PORTB |= (0 >> PORTB1)|(0 << PORTB3);  //activate pins
  
 
 // Interrupt Timer to Timer 1 (16-bit resolution)
@@ -110,7 +110,7 @@ TCCR1A |= (1 << COM1A1);                       //sets Timer 1 to CTC mode using 
 TCCR1B |= (1 << WGM12);                        // 
 TIMSK1 |= (1 << OCIE1A);                       // Enable CTC interrupt
 sei();                                         // Enable global interrupts
-OCR1A = 55;                                   //This sets frequency of interrupt to about 7.8 Hz to match Timer 0 
+OCR1A = 80;                                   //This sets frequency of interrupt to about 7.8 Hz to match Timer 0 
 TCCR1B |=(1 << CS10)|(0 << CS11)|(1 << CS12);  // sets the prescaler on the clock frequency to 1024
 ////  TARGET FREQUENCY CALCULATION ////////////////////
 ////  Target Frequency =  F CPU/(2*Prescale*OCR1A) - 1
@@ -119,7 +119,7 @@ TCCR1B |=(1 << CS10)|(0 << CS11)|(1 << CS12);  // sets the prescaler on the cloc
 // PWM Timer set to Timer 0 (8-bit resolution)  ** Timer 0 and Timer 1 share the set prescale value
 
 TCCR0A |= (1 << COM0A1)|(0 << COM0A0)|(1 << COM0B1)|(0 << COM0B0)|(1 << WGM00)|(1 << WGM01);//Setting up Fast PWM with OCR0A and OCROB as compare registers
-TCCR0B |= (0 << WGM02)|(1 << CS02)|(0 << CS01)|(0 << CS00);  // Defines Fast PWM and activates timer
+TCCR0B |= (0 << WGM02)|(1 << CS02)|(0 << CS01)|(1 << CS00);  // Defines Fast PWM and activates timer
 
 //TCNT0 = 100;
 
@@ -128,7 +128,7 @@ TCCR0B |= (0 << WGM02)|(1 << CS02)|(0 << CS01)|(0 << CS00);  // Defines Fast PWM
 
 	while(1)
 	{
-	//printf("tcnt0 %d; \n", TCNT0);
+
 	}
 }
 

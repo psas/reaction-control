@@ -963,7 +963,7 @@ int main (void)
      628:	8a b9       	out	0x0a, r24	; 10
 	
 	
-	// Initialize TWI
+	// Initialize TWI/I2C
 	
 	mpu6050_init();
      62a:	a1 de       	rcall	.-702    	; 0x36e <mpu6050_init>
@@ -983,12 +983,12 @@ DDRD  |= (1 << PORTD3)|(1 << PORTD5)|(1 << PORTD6); //set data direction
 DDRB  |= (1 >> PORTB1)|(1 << PORTB3);  //set data direction 
      638:	23 9a       	sbi	0x04, 3	; 4
 
-PORTD |= (1 << PORTD5)|(1 << PORTD6); //activate pins
+PORTD |= (0 << PORTD5)|(0 << PORTD6); //activate pins
      63a:	8b b1       	in	r24, 0x0b	; 11
-     63c:	80 66       	ori	r24, 0x60	; 96
-     63e:	8b b9       	out	0x0b, r24	; 11
-PORTB |= (1 >> PORTB1)|(1 << PORTB3);  //activate pins
-     640:	2b 9a       	sbi	0x05, 3	; 5
+     63c:	8b b9       	out	0x0b, r24	; 11
+PORTB |= (0 >> PORTB1)|(0 << PORTB3);  //activate pins
+     63e:	85 b1       	in	r24, 0x05	; 5
+     640:	85 b9       	out	0x05, r24	; 5
  
 
 // Interrupt Timer to Timer 1 (16-bit resolution)
@@ -1013,8 +1013,8 @@ TIMSK1 |= (1 << OCIE1A);                       // Enable CTC interrupt
      65e:	80 83       	st	Z, r24
 sei();                                         // Enable global interrupts
      660:	78 94       	sei
-OCR1A = 55;                                   //This sets frequency of interrupt  
-     662:	87 e3       	ldi	r24, 0x37	; 55
+OCR1A = 80;                                   //This sets frequency of interrupt to about 7.8 Hz to match Timer 0 
+     662:	80 e5       	ldi	r24, 0x50	; 80
      664:	90 e0       	ldi	r25, 0x00	; 0
      666:	90 93 89 00 	sts	0x0089, r25
      66a:	80 93 88 00 	sts	0x0088, r24
@@ -1029,18 +1029,18 @@ TCCR1B |=(1 << CS10)|(0 << CS11)|(1 << CS12);  // sets the prescaler on the cloc
 
 // PWM Timer set to Timer 0 (8-bit resolution)  ** Timer 0 and Timer 1 share the set prescale value
 
-TCCR0A |= (1 << COM0A1)|(0 << COM0A0)|(1 << COM0B1)|(0 << COM0B0)|(1 << WGM00)|(0 << WGM01);//Setting up Fast PWM with OCR0A and OCROB as compare registers
+TCCR0A |= (1 << COM0A1)|(0 << COM0A0)|(1 << COM0B1)|(0 << COM0B0)|(1 << WGM00)|(1 << WGM01);//Setting up Fast PWM with OCR0A and OCROB as compare registers
      678:	84 b5       	in	r24, 0x24	; 36
-     67a:	81 6a       	ori	r24, 0xA1	; 161
+     67a:	83 6a       	ori	r24, 0xA3	; 163
      67c:	84 bd       	out	0x24, r24	; 36
-TCCR0B |= (0 << WGM02)|(1 << CS02)|(0 << CS01)|(0 << CS00);  // Defines Fast PWM and activates timer
+TCCR0B |= (0 << WGM02)|(1 << CS02)|(0 << CS01)|(1 << CS00);  // Defines Fast PWM and activates timer
      67e:	85 b5       	in	r24, 0x25	; 37
-     680:	84 60       	ori	r24, 0x04	; 4
+     680:	85 60       	ori	r24, 0x05	; 5
      682:	85 bd       	out	0x25, r24	; 37
      684:	ff cf       	rjmp	.-2      	; 0x684 <main+0x7a>
 
 00000686 <__vector_11>:
-	//printf("tcnt0 %d; \n", TCNT0);
+
 	}
 }
 
