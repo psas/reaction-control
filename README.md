@@ -1,4 +1,4 @@
 reaction-control
 ================
 
-Mathematical models and CAD drawings for a Reaction Control System.
+Mathematical models, controller scripts, test data, and CAD drawings for a Reaction Control System.
