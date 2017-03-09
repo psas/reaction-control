@@ -22,7 +22,7 @@ Rao bells (e.g. nearly ideal nozzles) are hard to machine c.f. conical nozzles, 
 * ???
 * Fly!
 
-This repo includes mathematical models, matlab and python controller scripts, eagle files for a custom MOSFET relay board, solenoid PWD test data for transfer functions, system test deata and bode analysis, and CAD drawings for the LV3 Reaction Control System.
+This repo includes mathematical models, matlab and python controller scripts, eagle files for a custom MOSFET relay board, solenoid PWD test data for transfer functions, system test data and bode analysis, and the Solidworks CAD assembly for the LV3 Reaction Control System.
 
 ## Suplimentary Links
 [Link to AIAA SPACE 2015 presentation slides](https://docs.google.com/presentation/d/1vfhgjRymidfKbpzjqC0tfAL57iSsNFOEQSFTw5_EEGs/edit?usp=sharing)
