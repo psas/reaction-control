@@ -14,7 +14,7 @@ The concept:
 
 ![](https://github.com/psas/reaction-control/blob/master/module_render.png)
 
-Rao bells (e.g. nearly ideal nozzles) are hard to machine c.f. conical nozzles, but easy to 3D print. This also enables “plug & play” optimal expansion ratios for any trajectory. Here is the basic workflow: 
+Rao bells (e.g. nearly ideal nozzles) are hard to machine c.f. conical nozzles, but easy to 3D print. This also enables “plug & play” optimal expansion ratios for any trajectory. Here is the basic workflow:
 1. Determine flight envelope from simulation (for instance, using [OpenRocket](https://github.com/psas/lv3.0-airframe/tree/master/sim/ORK))
 2. Run `nozzle_sizing.m` script to determine nozzle design parameters
 3. Plug expansion ratio into parametric solid model and export `.stl`
