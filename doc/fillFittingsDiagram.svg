@@ -979,9 +979,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="324.01629"
-     inkscape:cy="187.30719"
+     inkscape:zoom="4.0000002"
+     inkscape:cx="309.92734"
+     inkscape:cy="218.03446"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -1659,15 +1659,15 @@
          x="50.800007"
          y="71.525711"
          style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan1855-1-4-56">designator: HP-TEE1</tspan><tspan
+         id="tspan1855-1-4-56">designator: HPF-TEE1</tspan><tspan
          sodipodi:role="line"
          x="50.800007"
-         y="73.730576"
+         y="73.730568"
          style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
          id="tspan1903-2-9-6-76">rated pressure: 8000 psi</tspan><tspan
          sodipodi:role="line"
          x="50.800007"
-         y="75.93544"
+         y="75.935432"
          style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
          id="tspan1911-3-4-8-0">MFR part#: 48805K125</tspan><tspan
          sodipodi:role="line"
@@ -1784,21 +1784,21 @@
          id="tspan1889-7-9-4-9"
          x="74.612503"
          y="69.850006"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291">name: fill hose coupling (male)</tspan><tspan
+         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291;">name: fill hose coupling (male)</tspan><tspan
          sodipodi:role="line"
          x="74.612503"
-         y="72.054863"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan1899-2-0-2-9">designator: HP-HC1M</tspan><tspan
+         y="72.054871"
+         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291;"
+         id="tspan1899-2-0-2-9">designator: HPF-HC1M</tspan><tspan
          sodipodi:role="line"
          x="74.612503"
          y="74.259727"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291;"
          id="tspan1903-7-9-2-8">rated press.: 5000 psi</tspan><tspan
          sodipodi:role="line"
          x="74.612503"
          y="76.464592"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291;"
          id="tspan1915-3-3-6-5">MFR part#: SS-ISOBN-04-04FP</tspan></text>
     <text
        xml:space="preserve"
@@ -1815,7 +1815,7 @@
          x="21.695837"
          y="21.254866"
          style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan7010">designator: HP-PG</tspan><tspan
+         id="tspan7010">designator: HPF-PG</tspan><tspan
          sodipodi:role="line"
          x="21.695837"
          y="23.459728"
@@ -2051,7 +2051,7 @@
          x="102.42266"
          y="30.384525"
          style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan1899-8">designator: HP-FLEX</tspan><tspan
+         id="tspan1899-8">designator: HPF-FLEX</tspan><tspan
          sodipodi:role="line"
          x="102.42266"
          y="32.589386"
@@ -2107,15 +2107,15 @@
          x="109.00835"
          y="72.054863"
          style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan1899-2-0-2-9-6">designator: HP-HC1F</tspan><tspan
+         id="tspan1899-2-0-2-9-6">designator: HPF-HC1F</tspan><tspan
          sodipodi:role="line"
          x="109.00835"
-         y="74.259727"
+         y="74.25972"
          style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
          id="tspan1903-7-9-2-8-4">rated press.: 5000 psi</tspan><tspan
          sodipodi:role="line"
          x="109.00835"
-         y="76.464592"
+         y="76.464584"
          style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
          id="tspan1915-3-3-6-5-5">MFR part#: SS-ISOBC-04-04FP</tspan></text>
     <path
@@ -2138,7 +2138,7 @@
          x="132.82082"
          y="27.604862"
          style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan656">designator: HP-HC2F</tspan><tspan
+         id="tspan656">designator: HPF-HC2F</tspan><tspan
          sodipodi:role="line"
          x="132.82082"
          y="29.809725"
@@ -2198,7 +2198,7 @@
            x="71.4375"
            y="26.017363"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-           id="tspan1899-2-0">designator: HP-VTA</tspan><tspan
+           id="tspan1899-2-0">designator: HPF-VTA</tspan><tspan
            sodipodi:role="line"
            x="71.4375"
            y="28.222225"
@@ -2256,70 +2256,73 @@
            id="path2392-4-74" />
       </g>
     </g>
-    <path
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
-       d="m 58.737502,42.862501 v -9.525"
-       id="path520" />
-    <text
-       xml:space="preserve"
-       style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
-       x="65.087502"
-       y="34.925003"
-       id="text1891-4-3-2"><tspan
-         sodipodi:role="line"
-         id="tspan1889-7-9-8"
+    <g
+       id="g419">
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
+         d="m 58.737502,42.862501 v -9.525"
+         id="path520" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
          x="65.087502"
          y="34.925003"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291">name: high-pressure adapter</tspan><tspan
-         sodipodi:role="line"
-         x="65.087502"
-         y="37.129864"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan398-7">designator: HP-AD-FF</tspan><tspan
-         sodipodi:role="line"
-         x="65.087502"
-         y="39.334728"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan1903-7-9-6">proof press.: 6600 psi</tspan><tspan
-         sodipodi:role="line"
-         x="65.087502"
-         y="41.539589"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan1915-3-3-1">MFR part#: 48805K69</tspan></text>
-    <path
-       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-3-4-7-4);paint-order:markers stroke fill;stop-color:#000000"
-       d="m 62.706252,35.718755 c -6.35,0 4.7625,4.762499 -1.5875,4.762499"
-       id="path837-9-6-1-7-9"
-       sodipodi:nodetypes="cc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-       x="288"
-       y="756"
-       id="text4095-6-97-4-6"
-       transform="matrix(0.26458334,0,0,0.26458334,-17.4625,-155.575)"><tspan
-         sodipodi:role="line"
+         id="text1891-4-3-2"><tspan
+           sodipodi:role="line"
+           id="tspan1889-7-9-8"
+           x="65.087502"
+           y="34.925003"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291">name: high-pressure adapter</tspan><tspan
+           sodipodi:role="line"
+           x="65.087502"
+           y="37.129864"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+           id="tspan398-7">designator: HPF-AD-FF</tspan><tspan
+           sodipodi:role="line"
+           x="65.087502"
+           y="39.334728"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+           id="tspan1903-7-9-6">proof press.: 6600 psi</tspan><tspan
+           sodipodi:role="line"
+           x="65.087502"
+           y="41.539589"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+           id="tspan1915-3-3-1">MFR part#: 48805K69</tspan></text>
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-3-4-7-4);paint-order:markers stroke fill;stop-color:#000000"
+         d="m 62.706252,35.718755 c -6.35,0 4.7625,4.762499 -1.5875,4.762499"
+         id="path837-9-6-1-7-9"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          x="288"
          y="756"
-         id="tspan2248-9">1/4&quot; NPT female</tspan><tspan
-         sodipodi:role="line"
-         x="288"
-         y="762.75146"
-         id="tspan394-4">316 Stainless Steel</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-       x="288"
-       y="756"
-       id="text4095-6-97-4-6-7"
-       transform="matrix(0.26458334,0,0,0.26458334,-17.502463,-168.6421)"><tspan
-         sodipodi:role="line"
+         id="text4095-6-97-4-6"
+         transform="matrix(0.26458334,0,0,0.26458334,-17.4625,-155.575)"><tspan
+           sodipodi:role="line"
+           x="288"
+           y="756"
+           id="tspan2248-9">1/4&quot; NPT female</tspan><tspan
+           sodipodi:role="line"
+           x="288"
+           y="762.75146"
+           id="tspan394-4">316 Stainless Steel</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          x="288"
          y="756"
-         id="tspan2248-9-8">1/4&quot; NPT female</tspan><tspan
-         sodipodi:role="line"
-         x="288"
-         y="762.75146"
-         id="tspan394-4-2">316 Stainless Steel</tspan></text>
+         id="text4095-6-97-4-6-7"
+         transform="matrix(0.26458334,0,0,0.26458334,-17.502463,-168.6421)"><tspan
+           sodipodi:role="line"
+           x="288"
+           y="756"
+           id="tspan2248-9-8">1/4&quot; NPT female</tspan><tspan
+           sodipodi:role="line"
+           x="288"
+           y="762.75146"
+           id="tspan394-4-2">316 Stainless Steel</tspan></text>
+    </g>
   </g>
 </svg>
