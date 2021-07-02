@@ -869,6 +869,20 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path1734-2-5-2-93-19-7-7-5-4-2" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1736-0-3-4-7-31-23-7-4-3-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1734-2-5-2-93-19-7-7-5-4-27" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -877,11 +891,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.0000001"
-     inkscape:cx="183.11777"
-     inkscape:cy="68.313329"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="251.61661"
+     inkscape:cy="111.0632"
      inkscape:document-units="in"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      inkscape:document-rotation="0"
      showgrid="true"
      units="in"
@@ -941,12 +955,14 @@
      inkscape:label="connection hints">
     <path
        style="fill:#000000;fill-opacity:0;stroke:#d45500;stroke-width:1.27;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 63.500008,19.050005 h -11.1125"
-       id="path12041" />
+       d="m 84.137503,19.050004 -14.287501,0"
+       id="path12041"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:#000000;fill-opacity:0;stroke:#d45500;stroke-width:1.27;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 36.512503,19.050005 h -11.1125"
-       id="path12043" />
+       d="m 57.150002,19.050004 -31.749999,10e-7"
+       id="path12043"
+       sodipodi:nodetypes="cc" />
   </g>
   <g
      inkscape:label="components"
@@ -990,135 +1006,99 @@
        xml:space="preserve"
        id="text21923"
        style="line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variation-settings:normal;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect21925);opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-4-1-3-53-3);paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1;" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-       x="288"
-       y="756"
-       id="text4095-6-4-0-7-5-8-4"
-       transform="matrix(0,0.26458334,-0.26458334,0,255.95459,-57.164815)"><tspan
-         sodipodi:role="line"
-         id="tspan4093-88-4-0-7-4-0-9"
-         x="288"
-         y="756">1/4&quot; NPT male</tspan><tspan
-         sodipodi:role="line"
-         x="288"
-         y="762.75146"
-         id="tspan329-9-80-0-5-2-8-1">316 Stainless Steel</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-       x="288"
-       y="756"
-       id="text11699-4-7-5-8"
-       transform="matrix(0,0.26458334,-0.26458334,0,260.71709,-57.240615)"><tspan
-         sodipodi:role="line"
-         x="288"
-         y="756"
-         id="tspan7231">1/4&quot; NPT female</tspan><tspan
-         sodipodi:role="line"
-         x="288"
-         y="762.75146"
-         id="tspan223">316 Stainless Steel</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-       x="288"
-       y="756"
-       id="text11699-4-7-0-7-3"
-       transform="matrix(0,0.26458334,-0.26458334,0,280.9875,-57.150005)"><tspan
-         sodipodi:role="line"
-         x="288"
-         y="756"
-         id="tspan2426-3">ISO B 7241 HNV</tspan><tspan
-         sodipodi:role="line"
-         x="288"
-         y="762.75146"
-         id="tspan219">316 Stainless Steel</tspan></text>
     <g
-       id="g7062-5"
-       transform="translate(-26.987497,-149.22501)">
-      <path
-         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-         d="m 95.250003,173.03751 4.762497,-4.7625 -4.762497,-4.7625"
-         id="path16269-5-7" />
-      <circle
-         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-         id="path16271-6-4"
-         cx="-94.985428"
-         cy="-168.27501"
-         r="2.3812501"
-         transform="scale(-1)" />
-      <path
-         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-         d="m 88.900002,168.27501 3.704173,-1e-5"
-         id="path2985-3-3-1-3-6-5-1-79-3"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-         d="m 100.0125,168.27501 h 4.7625"
-         id="path2985-3-3-1-3-6-5-1-7-8-1"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-         d="m 104.77501,165.10001 v 6.35"
-         id="path2418-0" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
-       x="58.737492"
-       y="28.575008"
-       id="text1891-4-3-3-0-0-9"><tspan
-         sodipodi:role="line"
-         id="tspan1889-7-9-4-9-4-6"
-         x="58.737492"
+       id="g302"
+       transform="translate(5.8208267,1.38e-5)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+         x="288"
+         y="756"
+         id="text11699-4-7-5-8"
+         transform="matrix(0,0.26458334,-0.26458334,0,275.00459,-57.240615)"><tspan
+           sodipodi:role="line"
+           x="288"
+           y="756"
+           id="tspan7231">1/4&quot; NPT female</tspan><tspan
+           sodipodi:role="line"
+           x="288"
+           y="762.75146"
+           id="tspan223">316 Stainless Steel</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+         x="288"
+         y="756"
+         id="text11699-4-7-0-7-3"
+         transform="matrix(0,0.26458334,-0.26458334,0,295.275,-57.150005)"><tspan
+           sodipodi:role="line"
+           x="288"
+           y="756"
+           id="tspan2426-3">ISO B 7241 HNV</tspan><tspan
+           sodipodi:role="line"
+           x="288"
+           y="762.75146"
+           id="tspan219">316 Stainless Steel</tspan></text>
+      <g
+         id="g7062-5"
+         transform="translate(-12.699999,-149.22501)">
+        <path
+           style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+           d="m 95.250003,173.03751 4.762497,-4.7625 -4.762497,-4.7625"
+           id="path16269-5-7" />
+        <circle
+           style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+           id="path16271-6-4"
+           cx="-94.985428"
+           cy="-168.27501"
+           r="2.3812501"
+           transform="scale(-1)" />
+        <path
+           style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+           d="m 88.900002,168.27501 3.704173,-1e-5"
+           id="path2985-3-3-1-3-6-5-1-79-3"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+           d="m 100.0125,168.27501 h 4.7625"
+           id="path2985-3-3-1-3-6-5-1-7-8-1"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
+           d="m 104.77501,165.10001 v 6.35"
+           id="path2418-0" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
+         x="73.024986"
          y="28.575008"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291">name: vent inlet coupling</tspan><tspan
-         sodipodi:role="line"
-         x="58.737492"
-         y="30.779871"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan12541">designator: HPV-HC2F</tspan><tspan
-         sodipodi:role="line"
-         x="58.737492"
-         y="32.984734"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan211">rated press.: 5000 psi</tspan><tspan
-         sodipodi:role="line"
-         x="58.737492"
-         y="35.189594"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan213">MFR part#: SS-ISOBC-04-04FP</tspan></text>
-    <path
-       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-3-4-7-31-23-7-4);paint-order:markers stroke fill;stop-color:#000000"
-       d="m 65.881248,26.193755 c 0,-6.35 4.76251,4.7625 4.76251,-1.5875"
-       id="path837-9-6-1-7-0-9-7-3"
-       sodipodi:nodetypes="cc" />
-    <g
-       id="g10606"
-       transform="translate(-57.149999,-82.550006)">
+         id="text1891-4-3-3-0-0-9"><tspan
+           sodipodi:role="line"
+           id="tspan1889-7-9-4-9-4-6"
+           x="73.024986"
+           y="28.575008"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291">name: vent inlet coupling</tspan><tspan
+           sodipodi:role="line"
+           x="73.024986"
+           y="30.779871"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+           id="tspan12541">designator: HPV-HC2F</tspan><tspan
+           sodipodi:role="line"
+           x="73.024986"
+           y="32.984734"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+           id="tspan211">rated press.: 5000 psi</tspan><tspan
+           sodipodi:role="line"
+           x="73.024986"
+           y="35.189594"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+           id="tspan213">MFR part#: SS-ISOBC-04-04FP</tspan></text>
       <path
-         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-         d="m 101.6,101.60001 6.35,-3.175004 v 6.350004 z"
-         id="path3677-1-9" />
-      <path
-         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-         d="m 101.6,101.60001 -6.349997,-3.175004 v 6.350004 z"
-         id="path3679-0-5" />
-      <path
-         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-         d="M 95.250003,101.60001 H 92.075002"
-         id="path2985-3-0-9-4" />
-      <path
-         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-         d="M 111.12501,101.60001 H 107.95"
-         id="path2985-3-0-2-6-0" />
-      <path
-         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-opacity:0;paint-order:markers stroke fill;stop-color:#000000"
-         d="m 101.60001,101.60001 1.5875,-6.350002 h -3.17501 z"
-         id="path10599"
-         sodipodi:nodetypes="cccc" />
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-3-4-7-31-23-7-4);paint-order:markers stroke fill;stop-color:#000000"
+         d="m 80.168746,26.193755 c 0,-6.35 4.76251,4.7625 4.76251,-1.5875"
+         id="path837-9-6-1-7-0-9-7-3"
+         sodipodi:nodetypes="cc" />
     </g>
     <g
        id="g10719"
@@ -1167,57 +1147,101 @@
          x="288"
          y="762.75146"
          id="tspan329-9-80-0-5-2-8-1-3">316 Stainless Steel</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
-       x="288"
-       y="756"
-       id="text11699-4-7-5-8-7"
-       transform="matrix(0,0.26458334,-0.26458334,0,233.7296,-57.164815)"><tspan
-         sodipodi:role="line"
+    <g
+       id="g282"
+       transform="translate(4.7624933)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          x="288"
          y="756"
-         id="tspan7231-2">1/4&quot; NPT female</tspan><tspan
-         sodipodi:role="line"
+         id="text4095-6-4-0-7-5-8-4"
+         transform="matrix(0,0.26458334,-0.26458334,0,270.24209,-57.164815)"><tspan
+           sodipodi:role="line"
+           id="tspan4093-88-4-0-7-4-0-9"
+           x="288"
+           y="756">1/4&quot; NPT male</tspan><tspan
+           sodipodi:role="line"
+           x="288"
+           y="762.75146"
+           id="tspan329-9-80-0-5-2-8-1">316 Stainless Steel</tspan></text>
+      <g
+         id="g10606"
+         transform="translate(-42.862501,-82.550006)">
+        <path
+           style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+           d="m 101.6,101.60001 6.35,-3.175004 v 6.350004 z"
+           id="path3677-1-9" />
+        <path
+           style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+           d="m 101.6,101.60001 -6.349997,-3.175004 v 6.350004 z"
+           id="path3679-0-5" />
+        <path
+           style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+           d="M 95.250003,101.60001 H 92.075002"
+           id="path2985-3-0-9-4" />
+        <path
+           style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+           d="M 111.12501,101.60001 H 107.95"
+           id="path2985-3-0-2-6-0" />
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-opacity:0;paint-order:markers stroke fill;stop-color:#000000"
+           d="m 101.60001,101.60001 1.5875,-6.350002 h -3.17501 z"
+           id="path10599"
+           sodipodi:nodetypes="cccc" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          x="288"
-         y="762.75146"
-         id="tspan10807">316 Stainless Steel</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
-       x="34.925003"
-       y="28.575008"
-       id="text1891-4-3-3-0-0-9-6"><tspan
-         sodipodi:role="line"
-         id="tspan1889-7-9-4-9-4-6-3"
-         x="34.925003"
+         y="756"
+         id="text11699-4-7-5-8-7"
+         transform="matrix(0,0.26458334,-0.26458334,0,248.0171,-57.164815)"><tspan
+           sodipodi:role="line"
+           x="288"
+           y="756"
+           id="tspan7231-2">1/4&quot; NPT female</tspan><tspan
+           sodipodi:role="line"
+           x="288"
+           y="762.75146"
+           id="tspan10807">316 Stainless Steel</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
+         x="49.212502"
          y="28.575008"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291">name: vent leak valve</tspan><tspan
-         sodipodi:role="line"
-         x="34.925003"
-         y="30.779871"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan1899-2-0-2-9-6-3-4">designator: HPV-NV</tspan><tspan
-         sodipodi:role="line"
-         x="34.925003"
-         y="32.984734"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan1903-7-9-2-8-4-1-1">rated press.: 5000 psi</tspan><tspan
-         sodipodi:role="line"
-         x="34.925003"
-         y="35.189594"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan1915-3-3-6-5-5-2-5">MFR part#: 3000-6-SSS</tspan><tspan
-         sodipodi:role="line"
-         x="34.925003"
-         y="37.394459"
-         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-         id="tspan12009">Cv: 0.40</tspan></text>
-    <path
-       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-3-4-7-31-23-7-4-3);paint-order:markers stroke fill;stop-color:#000000"
-       d="m 42.068748,26.193755 c 0,-6.35 4.76251,4.7625 4.76251,-1.5875"
-       id="path837-9-6-1-7-0-9-7-3-6"
-       sodipodi:nodetypes="cc" />
+         id="text1891-4-3-3-0-0-9-6"><tspan
+           sodipodi:role="line"
+           id="tspan1889-7-9-4-9-4-6-3"
+           x="49.212502"
+           y="28.575008"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291">name: vent leak valve</tspan><tspan
+           sodipodi:role="line"
+           x="49.212502"
+           y="30.779871"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+           id="tspan1899-2-0-2-9-6-3-4">designator: HPV-NV</tspan><tspan
+           sodipodi:role="line"
+           x="49.212502"
+           y="32.984734"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+           id="tspan1903-7-9-2-8-4-1-1">rated press.: 5000 psi</tspan><tspan
+           sodipodi:role="line"
+           x="49.212502"
+           y="35.189594"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+           id="tspan1915-3-3-6-5-5-2-5">MFR part#: 3000-6-SSS</tspan><tspan
+           sodipodi:role="line"
+           x="49.212502"
+           y="37.394459"
+           style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+           id="tspan12009">Cv: 0.40</tspan></text>
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-3-4-7-31-23-7-4-3);paint-order:markers stroke fill;stop-color:#000000"
+         d="m 56.356246,26.193755 c 0,-6.35 4.76251,4.7625 4.76251,-1.5875"
+         id="path837-9-6-1-7-0-9-7-3-6"
+         sodipodi:nodetypes="cc" />
+    </g>
     <text
        xml:space="preserve"
        style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
@@ -1273,5 +1297,71 @@
          x="288"
          y="769.50287"
          id="tspan12543">(vent to atmosphere)</tspan></text>
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       d="M 44.450001,19.050004 H 36.5125"
+       id="path2985-3-0-9-4-6"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="288"
+       y="756"
+       id="text11699-4-7-5-8-7-8"
+       transform="matrix(0,0.26458334,-0.26458334,0,246.4296,-57.137596)"><tspan
+         sodipodi:role="line"
+         x="288"
+         y="756"
+         id="tspan7231-2-3">1/4&quot; NPT female</tspan><tspan
+         sodipodi:role="line"
+         x="288"
+         y="762.75146"
+         id="tspan10807-6">316 Stainless Steel</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+       x="288"
+       y="756"
+       id="text11699-4-7-5-8-7-3"
+       transform="matrix(0,0.26458334,-0.26458334,0,235.3171,-57.137596)"><tspan
+         sodipodi:role="line"
+         x="288"
+         y="756"
+         id="tspan7231-2-38">1/4&quot; NPT female</tspan><tspan
+         sodipodi:role="line"
+         x="288"
+         y="762.75146"
+         id="tspan10807-69">316 Stainless Steel</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
+       x="30.1625"
+       y="28.575008"
+       id="text1891-4-3-3-0-0-9-6-6"><tspan
+         sodipodi:role="line"
+         id="tspan1889-7-9-4-9-4-6-3-71"
+         x="30.1625"
+         y="28.575008"
+         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291">name: male-male NPT</tspan><tspan
+         sodipodi:role="line"
+         x="30.1625"
+         y="30.779871"
+         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+         id="tspan1899-2-0-2-9-6-3-4-0">designator: HPV-AD-MM</tspan><tspan
+         sodipodi:role="line"
+         x="30.1625"
+         y="32.984734"
+         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+         id="tspan1903-7-9-2-8-4-1-1-48">rated press.: 7500 psi</tspan><tspan
+         sodipodi:role="line"
+         x="30.1625"
+         y="35.189594"
+         style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
+         id="tspan12009-9">MFR part#: 48805K81</tspan></text>
+    <path
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-3-4-7-31-23-7-4-3-5);paint-order:markers stroke fill;stop-color:#000000"
+       d="m 37.306246,26.193754 c 0,-6.35 4.76251,4.7625 4.76251,-1.5875"
+       id="path837-9-6-1-7-0-9-7-3-6-6"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
