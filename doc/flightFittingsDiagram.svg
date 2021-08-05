@@ -1378,6 +1378,20 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path1734-2-5-2-93-19-7-7-5-4-27-3" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1736-0-3-4-7-4-09-4-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1734-2-5-2-93-8-2-7-1" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1387,17 +1401,17 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="581.75"
-     inkscape:cy="1195.5"
+     inkscape:cx="149.75"
+     inkscape:cy="43.5"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
-     showgrid="true"
+     showgrid="false"
      units="in"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-text-baseline="true"
      inkscape:snap-object-midpoints="false"
-     inkscape:snap-midpoints="false"
+     inkscape:snap-midpoints="true"
      inkscape:object-paths="true"
      inkscape:window-width="1366"
      inkscape:window-height="746"
@@ -1434,10 +1448,6 @@
        empopacity="0.25098039"
        originx="1.5875"
        originy="1.5875" />
-    <sodipodi:guide
-       position="8.9958532,-73.024991"
-       orientation="1,0"
-       id="guide88192" />
   </sodipodi:namedview>
   <metadata
      id="metadata1296">
@@ -1457,95 +1467,95 @@
      inkscape:label="connection hints">
     <path
        style="fill:none;stroke:#d45500;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 139.70001,409.57501 v -7.9375 -9.525 -12.7 -12.7 -12.7"
+       d="m 139.7,254.00001 v -7.9375 -9.525 -12.7 -12.7 -12.7"
        id="path2758" />
     <path
        style="fill:none;stroke:#d45500;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="M 131.7625,373.06251 H 114.3 106.36253 96.837522 84.137523"
+       d="m 130.96875,217.48751 h -17.4625 -7.93747 -9.524998 -12.699999"
        id="path2760"
        sodipodi:nodetypes="ccccc" />
     <path
        style="fill:none;stroke:#d45500;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 65.087523,352.42501 h -7.937501 -9.525 -9.525 -14.2875"
+       d="m 67.468753,136.52501 h -7.937501 -9.525 -9.525 -14.2875"
        id="path2762"
        sodipodi:nodetypes="ccccc" />
     <path
        style="fill:none;stroke:#d45500;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 139.70001,354.01251 v -3.175 l -4.7625,-4.7625 h -3.175 -7.9375"
+       d="m 139.7,198.43751 v -3.175 l -4.7625,-4.7625 h -3.175 -7.9375"
        id="path2764" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 155.57501,346.07501 h -9.525 -1.5875 l -4.7625,-4.7625 v -3.175 l -1e-5,-38.1 v -14.2875 -7.9375"
+       d="m 155.57501,190.50001 h -9.525 -1.5875 l -4.7625,-4.7625 v -3.175 l -1e-5,-38.1 v -14.2875 -7.9375"
        id="path2766"
        sodipodi:nodetypes="cccccccc" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 95.249999,249.2375 v -1.58749 -8.46667 -9.525 -6.35"
+       d="m 95.250003,93.662503 v -1.58749 -8.466668 -9.525 -6.35"
        id="path2774"
        sodipodi:nodetypes="ccccc" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 88.899998,206.37501 -14.287492,-2e-5"
+       d="m 88.900002,50.800015 -14.287492,-2e-5"
        id="path2776" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 65.087502,212.72499 v 6.35"
+       d="m 65.087506,57.149995 v 6.35"
        id="path2778" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 53.975001,225.42499 h -11.1125 -9.525 -9.525"
+       d="m 53.922971,69.862015 h -11.1125 -9.525 -9.525"
        id="path2780" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 65.087502,200.02502 v -4.76251"
+       d="m 65.087506,44.450025 v -4.76251"
        id="path2782" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 53.975001,188.91248 h -11.1125 -9.525 -9.525"
+       d="m 53.922971,33.349505 h -11.1125 -9.525 -9.525"
        id="path2784" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 184.14999,249.2375 v -1.58749 l 1e-5,-8.46667 v -9.52501 l -1e-5,-6.34999"
+       d="m 184.15001,93.662503 v -1.58749 l 1e-5,-8.466668 v -9.52501 l -1e-5,-6.34999"
        id="path2786"
        sodipodi:nodetypes="ccccc" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 190.49999,206.37502 14.2875,-2e-5"
+       d="m 190.44798,50.812045 14.2875,-2e-5"
        id="path2788"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 214.31249,212.725 -0.0269,6.35"
+       d="m 214.26048,57.162025 -0.0269,6.35"
        id="path2790"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 225.42499,225.425 h 11.1125 9.525 l 9.525,-1e-5"
+       d="m 225.37298,69.862025 h 11.1125 9.525 l 9.525,-1e-5"
        id="path2792"
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 214.31249,200.025 v -4.7625"
+       d="m 214.26048,44.462025 v -4.7625"
        id="path2794"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 225.42499,188.91249 11.1125,1e-5 h 9.525 l 9.525,-1e-5"
+       d="m 225.37298,33.349515 11.1125,1e-5 h 9.525 l 9.525,-1e-5"
        id="path2796"
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 95.249989,293.68751 v -26.9875"
+       d="m 95.249952,138.11258 v -26.9875"
        id="path2774-6"
        sodipodi:nodetypes="cc" />
     <path
        style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#88aa00;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 184.15001,295.27501 0,-28.575"
+       d="m 184.14999,139.70008 v -28.575"
        id="path54556"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="M 103.1875,300.03751 H 127 h 9.525 12.7 l 28.57501,0"
+       d="M 103.1875,144.46249 H 127 h 9.525 12.7 28.57501"
        id="path2768-2"
        sodipodi:nodetypes="ccccc" />
   </g>
@@ -1555,7 +1565,7 @@
      id="layer1">
     <g
        id="g1306-9"
-       transform="matrix(-1,0,0,1,252.41249,127)">
+       transform="matrix(-1,0,0,1,252.41249,-28.57499)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="M 68.262484,98.424995 V 79.375006 h -6.35"
@@ -1638,7 +1648,7 @@
     </g>
     <g
        id="g6428"
-       transform="translate(100.01249,127)">
+       transform="translate(99.960478,-28.562975)">
       <text
          xml:space="preserve"
          style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
@@ -1724,7 +1734,7 @@
     </g>
     <g
        id="g4062-1"
-       transform="matrix(-1,0,0,1,252.41249,127)">
+       transform="matrix(-1,0,0,1,252.36048,-28.562975)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="M 15.875,98.425006 H 6.3500002"
@@ -1796,7 +1806,7 @@
     </g>
     <g
        id="g4062-1-9"
-       transform="matrix(-1,0,0,1,127,201.6125)">
+       transform="matrix(-1,0,0,1,127,46.037494)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="M 15.875,98.425006 H 6.3500002"
@@ -1868,7 +1878,7 @@
     </g>
     <g
        id="g1496-2"
-       transform="matrix(-1,0,0,1,252.41249,127)">
+       transform="matrix(-1,0,0,1,252.36048,-28.562975)">
       <path
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
          d="M 38.100001,92.075006 V 98.425 l -11.1125,6e-6"
@@ -1951,7 +1961,7 @@
     </g>
     <g
        id="g4895-2"
-       transform="matrix(-1,0,0,1,252.41249,127)">
+       transform="matrix(-1,0,0,1,252.36048,-28.562975)">
       <g
          id="g3819-7-7"
          transform="matrix(0.5,0,0,0.5,-41.275001,128.5875)">
@@ -2025,7 +2035,7 @@
     </g>
     <g
        id="g4844-1"
-       transform="matrix(-1,0,0,1,244.47499,146.86674)">
+       transform="matrix(-1,0,0,1,244.42298,-8.6962373)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 30.162501,48.39576 v -6.349998 l -11.1125,-6e-6"
@@ -2108,7 +2118,7 @@
     </g>
     <g
        id="g4947-3"
-       transform="matrix(-1,0,0,1,252.41249,90.487497)">
+       transform="matrix(-1,0,0,1,252.36048,-65.075478)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="M 15.875,98.425006 H 6.3500002"
@@ -2180,7 +2190,7 @@
     </g>
     <g
        id="g4975-3"
-       transform="matrix(-1,0,0,1,252.41249,90.487497)">
+       transform="matrix(-1,0,0,1,252.36048,-65.075478)">
       <g
          id="g4953-9"
          transform="matrix(0.5,0,0,0.5,-41.275001,128.5875)">
@@ -2265,19 +2275,19 @@
          y="1092">This document shows the component-level design of the LV3.1 RCS flight system.</tspan><tspan
          sodipodi:role="line"
          x="680.47015"
-         y="1098.7515"
+         y="1099.108"
          id="tspan1972">This is the source-of-truth for that system's topology. </tspan><tspan
          sodipodi:role="line"
          x="680.47015"
-         y="1105.5029"
+         y="1106.2162"
          id="tspan1976">Upstream documents:</tspan><tspan
          sodipodi:role="line"
          x="680.47015"
-         y="1112.2543"
-         id="tspan771">RCS Bill of Materials:  https://docs.google.com/spreadsheets/d/1cBJMjlN5WFVwdX_9TcaUBSTcdZAs0EM-6cfRYUSplz8</tspan></text>
+         y="1113.3242"
+         id="tspan771">RCS Bill of Materials:  https://docs.google.com/spreadsheets/d/1BfGjI3UVyF1JtbPPyyf6g0hjVVZdY95z/edit#gid=1863283316</tspan></text>
     <g
        id="g1980"
-       transform="translate(-20.7399,117.37256)">
+       transform="translate(-20.739921,-38.202421)">
       <g
          id="g537"
          transform="translate(20.739924,0.1024215)">
@@ -2458,7 +2468,7 @@
          y="960" /></text>
     <g
        id="g423"
-       transform="translate(63.500022,136.52499)">
+       transform="translate(63.500002,-19.049996)">
       <g
          id="g2943"
          transform="matrix(0.5,0,0,0.5,12.699999,146.05)">
@@ -2557,7 +2567,7 @@
     </g>
     <g
        id="g443"
-       transform="translate(63.500017,142.87499)">
+       transform="translate(63.499997,-12.699996)">
       <g
          id="g2955"
          transform="matrix(-0.5,0,0,0.5,139.70001,139.7)">
@@ -2652,7 +2662,7 @@
     </g>
     <g
        id="g873"
-       transform="translate(22.225002,109.5375)">
+       transform="translate(22.225001,-46.037508)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 73.025002,120.65001 v 9.525"
@@ -2676,7 +2686,7 @@
            id="tspan1855-1-4-5-0">designator: LPL-AD-NP7</tspan><tspan
            sodipodi:role="line"
            x="80.962502"
-           y="126.64724"
+           y="126.64723"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1903-2-9-6-0-4">rated pressure: 290 psi</tspan><tspan
            sodipodi:role="line"
@@ -2686,7 +2696,7 @@
            id="tspan1925-4-6-3-2-0">MFR part#: 5779K116</tspan><tspan
            sodipodi:role="line"
            x="80.962502"
-           y="131.05695"
+           y="131.05696"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1915-9-4-2-2-5">mass: ?? kg</tspan></text>
       <path
@@ -2723,7 +2733,7 @@
     </g>
     <g
        id="g929"
-       transform="translate(82.550007,109.5375)">
+       transform="translate(82.550057,-46.037586)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 101.6,120.65001 v 9.525"
@@ -2757,7 +2767,7 @@
            id="tspan883">MFR part#: 5779K116</tspan><tspan
            sodipodi:role="line"
            x="76.199997"
-           y="132.64445"
+           y="132.64444"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan885">mass: ?? kg</tspan></text>
       <path
@@ -2794,7 +2804,7 @@
     </g>
     <g
        id="g1306"
-       transform="translate(26.987501,126.99999)">
+       transform="translate(26.987505,-28.575005)">
       <path
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
          d="M 68.262502,98.42501 V 79.375023 h -6.35"
@@ -2876,7 +2886,7 @@
     </g>
     <g
        id="g6479"
-       transform="translate(26.987501,126.99999)">
+       transform="translate(26.935471,-28.562985)">
       <text
          xml:space="preserve"
          style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
@@ -2962,7 +2972,7 @@
     </g>
     <g
        id="g4062"
-       transform="translate(26.987501,126.99999)">
+       transform="translate(26.935471,-28.562985)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="M 15.875,98.425006 H 6.3500002"
@@ -3033,7 +3043,7 @@
     </g>
     <g
        id="g4062-2"
-       transform="translate(152.40001,201.6125)">
+       transform="translate(152.40001,46.037494)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="M 15.875,98.425006 H 6.3500002"
@@ -3104,7 +3114,7 @@
     </g>
     <g
        id="g1496"
-       transform="translate(26.987501,126.99999)">
+       transform="translate(26.935471,-28.562985)">
       <path
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
          d="M 38.100001,92.075006 V 98.425 l -11.1125,6e-6"
@@ -3186,7 +3196,7 @@
     </g>
     <g
        id="g4895"
-       transform="translate(26.987501,126.99999)">
+       transform="translate(26.935471,-28.562985)">
       <g
          id="g3819-7"
          transform="matrix(0.5,0,0,0.5,-41.275001,128.5875)">
@@ -3259,7 +3269,7 @@
     </g>
     <g
        id="g4844"
-       transform="translate(34.925001,146.86673)">
+       transform="translate(34.872971,-8.6962473)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 30.162501,48.39576 v -6.349998 l -11.1125,-6e-6"
@@ -3341,7 +3351,7 @@
     </g>
     <g
        id="g4947"
-       transform="translate(26.987501,90.487464)">
+       transform="translate(26.935471,-65.075511)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="M 15.875,98.425006 H 6.3500002"
@@ -3412,7 +3422,7 @@
     </g>
     <g
        id="g4975"
-       transform="translate(26.987501,90.487464)">
+       transform="translate(26.935471,-65.075511)">
       <g
          id="g4953"
          transform="matrix(0.5,0,0,0.5,-41.275001,128.5875)">
@@ -3485,7 +3495,7 @@
     </g>
     <g
        id="g4062-4"
-       transform="translate(88.900024,274.6375)">
+       transform="translate(88.900003,119.0625)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="M 15.875,98.425006 H 6.3500002"
@@ -3560,7 +3570,7 @@
     </g>
     <g
        id="g13657"
-       transform="translate(63.500026,138.11248)">
+       transform="translate(63.500006,-17.462504)">
       <g
          id="g582-3"
          transform="matrix(-1,0,0,1,152.4,59.795841)">
@@ -3668,7 +3678,7 @@
     </g>
     <g
        id="g14311"
-       transform="translate(44.450022,150.8125)">
+       transform="translate(44.450001,-65.087499)">
       <g
          id="g13802"
          transform="translate(3.175,4.7624963)">
@@ -3752,10 +3762,10 @@
     </g>
     <g
        id="g16231"
-       transform="translate(58.737522,136.52499)">
+       transform="translate(59.266669,-79.374983)">
       <path
          style="opacity:1;fill:none;stroke:#000000;stroke-width:1.27;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
-         d="m 28.575001,236.53751 h -17.4625 l -10e-7,-20.6375 H 6.3500002"
+         d="M 26.458334,296.86249 H 21.695833 L 11.1125,215.90001 H 6.3500002"
          id="path1969"
          sodipodi:nodetypes="cccc" />
       <text
@@ -3764,7 +3774,7 @@
          x="288"
          y="756"
          id="text4095-6-9-5-5-88-9"
-         transform="matrix(0,0.26458334,-0.26458334,0,230.5546,160.32269)"><tspan
+         transform="matrix(0,0.26458334,-0.26458334,0,228.48511,220.64767)"><tspan
            sodipodi:role="line"
            x="288"
            y="756"
@@ -3791,43 +3801,43 @@
       <text
          xml:space="preserve"
          style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
-         x="12.854677"
-         y="223.0894"
+         x="-8.4666672"
+         y="254"
          id="text1891-7-9-9-4-2-1-7-4-8"><tspan
            sodipodi:role="line"
-           x="12.854677"
-           y="223.0894"
+           x="-8.4666672"
+           y="254"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1899-7-2-3-5-2-1-4-0-5">name: fill/vent hardline</tspan><tspan
            sodipodi:role="line"
-           x="12.854677"
-           y="225.29427"
+           x="-8.4666672"
+           y="256.20486"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1855-1-4-5-0-6-0-4-0">designator: HPL-HT</tspan><tspan
            sodipodi:role="line"
-           x="12.854677"
-           y="227.49913"
+           x="-8.4666672"
+           y="258.40973"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1903-2-9-6-0-4-0-43-5-2">rated pressure: ?? psi</tspan><tspan
            sodipodi:role="line"
-           x="12.854677"
-           y="229.70399"
+           x="-8.4666672"
+           y="260.61459"
            style="font-size:1.76389px;letter-spacing:0px;fill:#999999;stroke-width:0.132291"
            id="tspan1925-4-6-3-2-0-1-02-8-5">MFR part#: ??</tspan><tspan
            sodipodi:role="line"
-           x="12.854677"
-           y="231.90884"
+           x="-8.4666672"
+           y="262.81946"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1915-9-4-2-2-5-8-7-6-9">mass: ?? kg</tspan></text>
       <path
-         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-4-1-3-53-3-3);paint-order:markers stroke fill;stop-color:#000000"
-         d="m 17.4625,220.66251 c 0,-3.175 -1.58749,-4.76251 -4.72482,-4.76251"
-         id="path837-9-1-0-4-1-6-5"
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-3-4-7-4-09-4-2);paint-order:markers stroke fill;stop-color:#000000"
+         d="m 12.964583,256.18577 c 6.34999,0 -4.7624897,4.76249 1.5875,4.76249"
+         id="path837-9-6-1-7-9-5-7-5"
          sodipodi:nodetypes="cc" />
     </g>
     <g
        id="g21917"
-       transform="translate(63.500022,136.52499)">
+       transform="translate(63.500002,-19.050001)">
       <text
          xml:space="preserve"
          style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
@@ -3910,7 +3920,7 @@
     </g>
     <g
        id="g21886"
-       transform="translate(63.500022,136.52499)">
+       transform="translate(63.500002,-19.050003)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 76.200002,255.58751 v 9.525"
@@ -3989,7 +3999,7 @@
        style="line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variation-settings:normal;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect21925);opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-4-1-3-53-3);paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1" />
     <g
        id="g871"
-       transform="translate(1.5875202,163.51249)">
+       transform="translate(1.5875008,-52.387492)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 55.562501,188.9125 h -9.525"
@@ -4064,17 +4074,17 @@
     </g>
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 139.7,265.11251 0,-66.675"
+       d="M 139.7,109.53749 V 42.862501"
        id="path2770"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#88aa00;stroke-width:1.27;paint-order:markers stroke fill;stop-color:#000000"
-       d="m 93.662471,193.67509 h 23.812479 9.52502 6.34999 12.7 6.34999 9.525 26.98751"
+       d="m 93.662521,38.100004 h 23.812469 9.52502 6.34999 12.7 6.34999 9.525 26.98751"
        id="path2772"
        sodipodi:nodetypes="cccccccc" />
     <g
        id="g8311"
-       transform="rotate(-90,171.45,206.37501)">
+       transform="rotate(-90,93.6625,128.58751)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 133.35,174.62501 h -9.525"
@@ -4094,17 +4104,17 @@
            id="tspan1899-7-2-3-5-2-1-9">name: NPT PTC adapter</tspan><tspan
            sodipodi:role="line"
            x="147.63751"
-           y="-127.97013"
+           y="-127.97014"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1855-1-4-5-0-6-2">designator: LPL-AD-NP1</tspan><tspan
            sodipodi:role="line"
            x="147.63751"
-           y="-125.76527"
+           y="-125.76528"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1903-2-9-6-0-4-0-73">rated pressure: 290 psi</tspan><tspan
            sodipodi:role="line"
            x="147.63751"
-           y="-123.56041"
+           y="-123.56042"
            style="font-size:1.76389px;letter-spacing:0px;fill:#999999;stroke-width:0.132291"
            id="tspan1925-4-6-3-2-0-1-0">MFR part#: 5779K116</tspan><tspan
            sodipodi:role="line"
@@ -4146,7 +4156,7 @@
     </g>
     <g
        id="g10653"
-       transform="translate(-8.7272323,40.784895)">
+       transform="translate(-8.7271809,-114.7902)">
       <path
          style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
          d="m 148.42724,198.92761 -1e-5,-4.76249 v -25.4"
@@ -4228,7 +4238,7 @@
     </g>
     <g
        id="g23751"
-       transform="translate(-48.683327,88.900003)">
+       transform="translate(-48.683277,-66.675083)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 161.39583,104.77501 h -9.525"
@@ -4299,7 +4309,7 @@
     </g>
     <g
        id="g10735"
-       transform="translate(-53.974997,73.025007)">
+       transform="translate(-53.974947,-82.550079)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-4-1-5-4-4);paint-order:markers stroke fill;stop-color:#000000"
          d="m 190.50001,112.7125 c -0.42537,7.08676 5.25255,-0.60978 4.82718,6.47698"
@@ -4385,7 +4395,7 @@
     </g>
     <g
        id="g11661"
-       transform="translate(-46.037498,50.799988)">
+       transform="translate(-46.037494,-104.77502)">
       <g
          id="g1279">
         <g
@@ -4462,7 +4472,7 @@
     </g>
     <g
        id="g4062-1-5"
-       transform="matrix(-1,0,0,1,184.14996,95.249997)">
+       transform="matrix(-1,0,0,1,184.15,-60.325089)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="M 15.875,98.425006 H 6.3500002"
@@ -4534,7 +4544,7 @@
     </g>
     <g
        id="g23669"
-       transform="translate(-18.520829,88.900003)">
+       transform="translate(-18.520803,-66.674992)">
       <g
          id="g11679"
          transform="translate(-6.87918,-34.925004)">
@@ -4608,7 +4618,7 @@
     </g>
     <g
        id="g3655"
-       transform="rotate(-90,254.79376,292.89376)">
+       transform="rotate(-90,177.00625,215.10626)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
@@ -4718,7 +4728,7 @@
     </g>
     <g
        id="g4062-1-5-3"
-       transform="matrix(-1,0,0,1,168.27496,95.249997)">
+       transform="matrix(-1,0,0,1,168.275,-60.325089)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="M 15.875,98.425006 H 6.3500002"
@@ -4801,7 +4811,7 @@
     </g>
     <g
        id="g4062-1-5-3-3"
-       transform="matrix(-1,0,0,1,133.34996,95.249997)">
+       transform="matrix(-1,0,0,1,133.35,-60.325089)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="M 15.875,98.425006 H 6.3500002"
@@ -4884,7 +4894,7 @@
     </g>
     <g
        id="g954"
-       transform="translate(-2.1166458,163.51249)">
+       transform="translate(8e-7,-52.387498)">
       <g
          id="g20806"
          transform="translate(41.275,-25.400004)">
@@ -4973,7 +4983,7 @@
     </g>
     <g
        id="g1138"
-       transform="translate(19.050022,163.51249)">
+       transform="translate(19.05,7.9374968)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="M 93.662503,209.55001 H 103.1875"
@@ -5183,7 +5193,7 @@
     </g>
     <g
        id="g1381-3"
-       transform="translate(-4.7624941,138.11249)">
+       transform="translate(-4.8145233,-17.450486)">
       <g
          id="g3745-5"
          transform="matrix(0.5,0,0,0.5,36.512503,98.425003)">
@@ -5305,7 +5315,7 @@
     </g>
     <g
        id="g60500"
-       transform="translate(73.025003,136.525)">
+       transform="translate(73.024988,-19.049916)">
       <g
          id="g3745-5-6"
          transform="matrix(0.5,0,0,0.5,47.625003,100.0125)">
@@ -5427,7 +5437,7 @@
     </g>
     <g
        id="g873-5-4"
-       transform="translate(22.225001,155.575)">
+       transform="translate(22.172971,0.01202351)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 73.025002,120.65001 v 9.525"
@@ -5498,7 +5508,7 @@
     </g>
     <g
        id="g873-5-4-4"
-       transform="translate(111.125,155.575)">
+       transform="translate(111.12498,8.371e-5)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 73.025002,120.65001 v 9.525"
@@ -5628,7 +5638,7 @@
     </g>
     <g
        id="g74871"
-       transform="translate(114.3,84.1375)">
+       transform="translate(114.3,-71.437506)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 15.875001,215.90001 h 19.05"
@@ -5749,7 +5759,7 @@
     </g>
     <g
        id="g4062-1-5-3-3-5-6"
-       transform="matrix(-1,0,0,1,171.45001,201.61251)">
+       transform="matrix(-1,0,0,1,171.44999,46.037595)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m -3.1749958,98.425009 -9.5250002,-1e-5 v -7.937497"
@@ -5832,7 +5842,7 @@
     </g>
     <g
        id="g4062-1-5-3-3-5-6-6"
-       transform="matrix(-1,0,0,1,130.175,201.6125)">
+       transform="matrix(-1,0,0,1,130.175,46.037494)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 25.399997,98.425009 9.525,-1e-5 v -7.937492"
@@ -5852,48 +5862,48 @@
       <text
          xml:space="preserve"
          style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
-         x="-60.324997"
-         y="96.837509"
+         x="-38.099998"
+         y="106.36251"
          id="text1891-7-9-9-4-2-1-0-9-4-8-4-6-8"
          transform="scale(-1,1)"><tspan
            sodipodi:role="line"
-           x="-60.324997"
-           y="96.837509"
+           x="-38.099998"
+           y="106.36251"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1915-9-4-2-2-5-8-1-0-4-6-9-3-5">name: LP soft tubing</tspan><tspan
            sodipodi:role="line"
-           x="-60.324997"
-           y="99.042374"
+           x="-38.099998"
+           y="108.56738"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan968-8-0-9-6">designator: LPL-ST?</tspan><tspan
            sodipodi:role="line"
-           x="-60.324997"
-           y="101.24723"
+           x="-38.099998"
+           y="110.77223"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan970-1-9-4-1">rated pressure: 190 psi</tspan><tspan
            sodipodi:role="line"
-           x="-60.324997"
-           y="103.4521"
+           x="-38.099998"
+           y="112.9771"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan972-5-1-8-1">MFR part#: 1J-074-10</tspan><tspan
            sodipodi:role="line"
-           x="-60.324997"
-           y="105.65696"
+           x="-38.099998"
+           y="115.18196"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan974-9-7-1-5">OD: 0.375&quot;</tspan><tspan
            sodipodi:role="line"
-           x="-60.324997"
-           y="107.86182"
+           x="-38.099998"
+           y="117.38683"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan976-1-7-2-9">ID: 0.250&quot;</tspan><tspan
            sodipodi:role="line"
-           x="-60.324997"
-           y="110.06668"
+           x="-38.099998"
+           y="119.59168"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan978-3-1-9-8">length: ??</tspan><tspan
            sodipodi:role="line"
-           x="-60.324997"
-           y="112.27155"
+           x="-38.099998"
+           y="121.79655"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan980-6-1-3-4">mass: ?? kg</tspan></text>
       <path
@@ -6098,7 +6108,7 @@
     </g>
     <g
        id="g117636"
-       transform="rotate(-90,182.56251,369.88751)">
+       transform="rotate(-90,104.77501,292.10001)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 231.77501,327.02501 h -7.9375"
