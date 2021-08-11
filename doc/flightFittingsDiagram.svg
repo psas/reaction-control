@@ -5,7 +5,7 @@
    viewBox="0 0 215.9 279.40001"
    version="1.1"
    id="svg1299"
-   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    sodipodi:docname="flightFittingsDiagram.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -1392,6 +1392,20 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path1734-2-5-2-93-8-2-7-1" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1736-0-3-4-7-4-09-4-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:#999999;fill-opacity:1;fill-rule:evenodd;stroke:#999999;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1734-2-5-2-93-8-2-7-4" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1400,9 +1414,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="149.75"
-     inkscape:cy="43.5"
+     inkscape:zoom="0.55010113"
+     inkscape:cx="401.74431"
+     inkscape:cy="484.45638"
      inkscape:document-units="in"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -1413,10 +1427,10 @@
      inkscape:snap-object-midpoints="false"
      inkscape:snap-midpoints="true"
      inkscape:object-paths="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="746"
-     inkscape:window-x="0"
-     inkscape:window-y="22"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-center="true"
      inkscape:pagecheckerboard="0"
@@ -1559,6 +1573,10 @@
        id="path2768-2"
        sodipodi:nodetypes="ccccc" />
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="changes" />
   <g
      inkscape:label="components"
      inkscape:groupmode="layer"
@@ -1828,7 +1846,7 @@
            x="-19.049997"
            y="83.167374"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-           id="tspan1855-1-4-5-0-6-4-0">designator: LPL-AD-NP?</tspan><tspan
+           id="tspan1855-1-4-5-0-6-4-0">designator: LPL-AD-NP10</tspan><tspan
            sodipodi:role="line"
            x="-19.049997"
            y="85.372231"
@@ -3069,7 +3087,7 @@
            x="1.5874968"
            y="83.167374"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-           id="tspan1766-9">designator: LPL-AD-NP?</tspan><tspan
+           id="tspan1766-9">designator: LPL-AD-NP12</tspan><tspan
            sodipodi:role="line"
            x="1.5874968"
            y="85.372231"
@@ -3841,54 +3859,59 @@
       <text
          xml:space="preserve"
          style="font-size:1.76389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#999999;stroke-width:0.132291"
-         x="82.550003"
+         x="85.725006"
          y="279.40002"
          id="text1891"><tspan
            sodipodi:role="line"
            id="tspan1889"
-           x="82.550003"
+           x="85.725006"
            y="279.40002"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291">name: flight tank</tspan><tspan
            sodipodi:role="line"
-           x="82.550003"
+           x="85.725006"
            y="281.60489"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1893">designator: HPL-TANK</tspan><tspan
            sodipodi:role="line"
-           x="82.550003"
+           x="85.725006"
            y="283.80975"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1899">design pressure: 3500 psi</tspan><tspan
            sodipodi:role="line"
-           x="82.550003"
+           x="85.725006"
            y="286.01462"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1903">rated pressure: 4500 psi</tspan><tspan
            sodipodi:role="line"
-           x="82.550003"
+           x="85.725006"
            y="288.21948"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1929">internal volume: 4.7 L</tspan><tspan
            sodipodi:role="line"
-           x="82.550003"
+           x="85.725006"
            y="290.42435"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan797">MFR part#: L45J</tspan><tspan
            sodipodi:role="line"
-           x="82.550003"
+           x="85.725006"
            y="292.62921"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1911">mass: ??</tspan><tspan
            sodipodi:role="line"
-           x="82.550003"
+           x="85.725006"
            y="294.83408"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1913">OD: ??</tspan><tspan
            sodipodi:role="line"
-           x="82.550003"
+           x="85.725006"
            y="297.03891"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
            id="tspan1915">length: ??</tspan></text>
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-3-4-7-4-09-4-6);paint-order:markers stroke fill;stop-color:#000000"
+         d="m 84.93125,284.95626 c -6.349982,-10e-6 4.76249,4.76249 -1.5875,4.76249"
+         id="path837-9-6-1-7-9-5-7-3"
+         sodipodi:nodetypes="cc" />
       <g
          id="g21288"
          transform="translate(4.0000085e-7,11.112502)">
@@ -5052,7 +5075,7 @@
     </g>
     <g
        id="g1381"
-       transform="translate(-147.6375,25.400001)">
+       transform="translate(-115.83827,2.1032408)">
       <g
          id="g3745"
          transform="matrix(0.5,0,0,0.5,36.512503,98.425003)">
@@ -5153,7 +5176,7 @@
            y="756">fitting??</tspan><tspan
            sodipodi:role="line"
            x="288"
-           y="763.10809"
+           y="762.75146"
            id="tspan893-1">aluminum</tspan></text>
       <text
          xml:space="preserve"
@@ -5168,7 +5191,7 @@
            y="756">fitting??</tspan><tspan
            sodipodi:role="line"
            x="288"
-           y="763.10809"
+           y="762.75146"
            id="tspan893-1-1">aluminum</tspan></text>
       <text
          xml:space="preserve"
@@ -5183,7 +5206,7 @@
            y="756">fitting??</tspan><tspan
            sodipodi:role="line"
            x="288"
-           y="763.10809"
+           y="762.75146"
            id="tspan893-1-10">aluminum</tspan></text>
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker22027-7-3);paint-order:markers stroke fill;stop-color:#000000"
@@ -5437,7 +5460,7 @@
     </g>
     <g
        id="g873-5-4"
-       transform="translate(22.172971,0.01202351)">
+       transform="translate(22.225001)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 73.025002,120.65001 v 9.525"
@@ -5458,7 +5481,7 @@
            x="44.450001"
            y="124.44237"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-           id="tspan1855-1-4-5-0-7-3">designator: LPL-AD-NP?</tspan><tspan
+           id="tspan1855-1-4-5-0-7-3">designator: LPL-AD-NP11</tspan><tspan
            sodipodi:role="line"
            x="44.450001"
            y="126.64722"
@@ -5492,7 +5515,7 @@
            y="756">1/4&quot; NPT male</tspan><tspan
            sodipodi:role="line"
            x="288"
-           y="763.10809"
+           y="762.75146"
            id="tspan329-9-1-6-6-1">nickel-plated brass</tspan></text>
       <text
          xml:space="preserve"
@@ -5534,7 +5557,7 @@
            x="80.962509"
            y="124.44238"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-           id="tspan1855-1-4-5-0-7-3-9">designator: LPL-AD-NP?</tspan><tspan
+           id="tspan1855-1-4-5-0-7-3-9">designator: LPL-AD-NP13</tspan><tspan
            sodipodi:role="line"
            x="80.962509"
            y="126.64723"
@@ -5579,7 +5602,7 @@
     </g>
     <g
        id="g3678"
-       transform="matrix(-1,0,0,1,33.99508,19.05)">
+       transform="matrix(-1,0,0,1,139.42567,44.557402)">
       <rect
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          id="rect3664"
@@ -5614,7 +5637,7 @@
     </g>
     <g
        id="g3541"
-       transform="matrix(0.5,0,0,0.5,-185.7375,142.875)">
+       transform="matrix(0.5,0,0,0.5,-103.60367,134.03243)">
       <rect
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.54;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          id="rect3012"
@@ -5797,7 +5820,7 @@
            x="19.049995"
            y="100.62987"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-           id="tspan968-8-0-9">designator: LPL-ST?</tspan><tspan
+           id="tspan968-8-0-9">designator: LPL-ST11</tspan><tspan
            sodipodi:role="line"
            x="19.049995"
            y="102.83472"
@@ -5875,7 +5898,7 @@
            x="-38.099998"
            y="108.56738"
            style="font-size:1.76389px;fill:#999999;stroke-width:0.132291"
-           id="tspan968-8-0-9-6">designator: LPL-ST?</tspan><tspan
+           id="tspan968-8-0-9-6">designator: LPL-ST10</tspan><tspan
            sodipodi:role="line"
            x="-38.099998"
            y="110.77223"
@@ -5908,7 +5931,7 @@
            id="tspan980-6-1-3-4">mass: ?? kg</tspan></text>
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#999999;stroke-width:0.254;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker1736-0-3-4-7-4-09-4);paint-order:markers stroke fill;stop-color:#000000"
-         d="m 38.893747,102.39376 c -6.34999,0 4.76249,-4.762492 -1.5875,-4.762492"
+         d="m 28.574997,103.18751 c 0,-6.349984 4.762492,4.76249 4.762492,-1.5875"
          id="path837-9-6-1-7-9-5-7"
          sodipodi:nodetypes="cc" />
       <text
@@ -5925,7 +5948,7 @@
     </g>
     <g
        id="g33547"
-       transform="translate(-157.16251,-36.512493)">
+       transform="translate(-64.315568,0.72831349)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Comic Sans MS';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:0px;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:middle;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;vector-effect:none;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.132291;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
@@ -5939,7 +5962,7 @@
            y="756">fitting??</tspan><tspan
            sodipodi:role="line"
            x="288"
-           y="763.10809"
+           y="762.75146"
            id="tspan893-1-10-2-6">material??</tspan></text>
       <g
          id="g13769">
@@ -5972,7 +5995,7 @@
            y="756">fitting??</tspan><tspan
            sodipodi:role="line"
            x="288"
-           y="763.10809"
+           y="762.75146"
            id="tspan893-1-10-2-6-7">material??</tspan></text>
       <text
          xml:space="preserve"
@@ -5987,7 +6010,7 @@
            y="756">fitting??</tspan><tspan
            sodipodi:role="line"
            x="288"
-           y="763.10809"
+           y="762.75146"
            id="tspan893-1-10-2-6-2">material??</tspan></text>
       <text
          xml:space="preserve"
@@ -6038,7 +6061,7 @@
     </g>
     <g
        id="g74886"
-       transform="rotate(-90,-28.575,260.35)">
+       transform="rotate(-90,-13.865732,234.58752)">
       <path
          style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.27;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
          d="m 119.0625,231.775 h 9.525"
@@ -6088,7 +6111,7 @@
            id="tspan2248-9-4">1/4&quot; NPT female</tspan><tspan
            sodipodi:role="line"
            x="288"
-           y="763.10809"
+           y="762.75146"
            id="tspan394-4-3">316 Stainless Steel</tspan></text>
       <text
          xml:space="preserve"
@@ -6103,7 +6126,7 @@
            id="tspan2248-9-8-8">1/4&quot; NPT female</tspan><tspan
            sodipodi:role="line"
            x="288"
-           y="763.10809"
+           y="762.75146"
            id="tspan394-4-2-1">316 Stainless Steel</tspan></text>
     </g>
     <g
